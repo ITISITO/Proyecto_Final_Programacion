@@ -52,13 +52,52 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormGestionPlatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGestionPlatos.Designer.cs">
+      <DependentUpon>FormGestionPlatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPedido.Designer.cs">
+      <DependentUpon>FormPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsuario.Designer.cs">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelPedidos.Designer.cs">
+      <DependentUpon>PanelPedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pedido.cs" />
+    <Compile Include="PedidoCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PedidoCard.Designer.cs">
+      <DependentUpon>PedidoCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Plato.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Usuario.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PedidoCard.resx">
+      <DependentUpon>PedidoCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
