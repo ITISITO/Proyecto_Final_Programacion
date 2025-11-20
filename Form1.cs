@@ -180,5 +180,10 @@ namespace Sistema_de_pedidos_restaurante_PF
         {
             this.Close();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

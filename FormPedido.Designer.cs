@@ -59,7 +59,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(255, 9);
+            this.label2.Location = new System.Drawing.Point(244, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 16);
             this.label2.TabIndex = 1;
@@ -69,21 +69,21 @@
             // 
             this.numMesa.Location = new System.Drawing.Point(130, 6);
             this.numMesa.Name = "numMesa";
-            this.numMesa.Size = new System.Drawing.Size(38, 22);
+            this.numMesa.Size = new System.Drawing.Size(48, 22);
             this.numMesa.TabIndex = 2;
             // 
             // txtCliente
             // 
             this.txtCliente.Location = new System.Drawing.Point(386, 9);
             this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(155, 22);
+            this.txtCliente.Size = new System.Drawing.Size(123, 22);
             this.txtCliente.TabIndex = 3;
             // 
             // txtObservaciones
             // 
             this.txtObservaciones.Location = new System.Drawing.Point(117, 46);
             this.txtObservaciones.Name = "txtObservaciones";
-            this.txtObservaciones.Size = new System.Drawing.Size(424, 22);
+            this.txtObservaciones.Size = new System.Drawing.Size(392, 22);
             this.txtObservaciones.TabIndex = 4;
             // 
             // label3
@@ -159,7 +159,7 @@
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(415, 382);
+            this.lblTotal.Location = new System.Drawing.Point(399, 382);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(38, 16);
             this.lblTotal.TabIndex = 12;
@@ -196,7 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(565, 430);
+            this.ClientSize = new System.Drawing.Size(526, 420);
             this.Controls.Add(this.lstPlatosSeleccionados);
             this.Controls.Add(this.lstPlatosDisponibles);
             this.Controls.Add(this.btnGuardar);

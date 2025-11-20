@@ -16,5 +16,10 @@ namespace Sistema_de_pedidos_restaurante_PF
         {
             InitializeComponent();
         }
+
+        private void FormGestionPlatos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

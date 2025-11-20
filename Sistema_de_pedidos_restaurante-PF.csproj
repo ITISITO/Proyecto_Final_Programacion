@@ -99,6 +99,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormGestionPlatos.resx">
+      <DependentUpon>FormGestionPlatos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +125,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -136,6 +140,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallhaven-qrzyx5_1920x1080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diffuse-819392_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallhaven-3qlxe6_1920x1080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diffuse-819392_12801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diffuse-819392_12802.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_187735980-stock-illustration-mexican-traditional-food-restaurant-menu.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
