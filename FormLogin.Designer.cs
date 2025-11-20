@@ -47,7 +47,7 @@
             this.lblCorreo.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCorreo.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lblCorreo.Location = new System.Drawing.Point(127, 171);
+            this.lblCorreo.Location = new System.Drawing.Point(127, 179);
             this.lblCorreo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(176, 44);
@@ -80,10 +80,10 @@
             this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCorreo.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCorreo.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txtCorreo.Location = new System.Drawing.Point(96, 201);
+            this.txtCorreo.Location = new System.Drawing.Point(96, 217);
             this.txtCorreo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(285, 33);
+            this.txtCorreo.Size = new System.Drawing.Size(259, 33);
             this.txtCorreo.TabIndex = 2;
             // 
             // txtContrasena
@@ -95,10 +95,10 @@
             this.txtContrasena.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtContrasena.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContrasena.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txtContrasena.Location = new System.Drawing.Point(96, 298);
+            this.txtContrasena.Location = new System.Drawing.Point(96, 318);
             this.txtContrasena.Margin = new System.Windows.Forms.Padding(4);
             this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(270, 33);
+            this.txtContrasena.Size = new System.Drawing.Size(259, 33);
             this.txtContrasena.TabIndex = 3;
             // 
             // btnIniciarSesion

@@ -26,7 +26,10 @@ namespace Sistema_de_pedidos_restaurante_PF
             MaximizeBox = true;
             FormBorderStyle = FormBorderStyle.None;
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
 
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
 
             lista = usuario.ReadDataFromJson();
 
@@ -181,9 +184,5 @@ namespace Sistema_de_pedidos_restaurante_PF
             this.Close();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
