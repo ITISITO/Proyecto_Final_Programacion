@@ -116,13 +116,15 @@
             // 
             // btnEditar
             // 
+            this.btnEditar.BackColor = System.Drawing.Color.Orange;
+            this.btnEditar.ForeColor = System.Drawing.Color.Linen;
             this.btnEditar.Location = new System.Drawing.Point(211, 248);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(105, 57);
             this.btnEditar.TabIndex = 6;
             this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.UseVisualStyleBackColor = false;
             // 
             // btnEliminar
             // 
@@ -137,13 +139,14 @@
             // 
             // btnCambiarEstado
             // 
+            this.btnCambiarEstado.BackColor = System.Drawing.Color.Orange;
             this.btnCambiarEstado.Location = new System.Drawing.Point(76, 311);
             this.btnCambiarEstado.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCambiarEstado.Name = "btnCambiarEstado";
             this.btnCambiarEstado.Size = new System.Drawing.Size(240, 51);
             this.btnCambiarEstado.TabIndex = 9;
             this.btnCambiarEstado.Text = "Cambiar estado";
-            this.btnCambiarEstado.UseVisualStyleBackColor = true;
+            this.btnCambiarEstado.UseVisualStyleBackColor = false;
             // 
             // lblEstado
             // 
