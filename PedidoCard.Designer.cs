@@ -28,114 +28,187 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblNumeroMesa = new System.Windows.Forms.Label();
-            this.LblCliente = new System.Windows.Forms.Label();
-            this.LblPlatos = new System.Windows.Forms.Label();
-            this.LblFecha = new System.Windows.Forms.Label();
-            this.LblTotal = new System.Windows.Forms.Label();
-            this.LblEstado = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.lbl2 = new System.Windows.Forms.Label();
+            this.lbl3 = new System.Windows.Forms.Label();
+            this.lbl6 = new System.Windows.Forms.Label();
+            this.lbl4 = new System.Windows.Forms.Label();
+            this.lbl5 = new System.Windows.Forms.Label();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnCambiarEstado = new System.Windows.Forms.Button();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.lblPlatos = new System.Windows.Forms.Label();
+            this.lblCliente = new System.Windows.Forms.Label();
+            this.lblNumeroMesa = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblNumeroMesa
+            // lbl1
             // 
-            this.LblNumeroMesa.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.LblNumeroMesa.AutoSize = true;
-            this.LblNumeroMesa.Location = new System.Drawing.Point(123, 9);
-            this.LblNumeroMesa.Name = "LblNumeroMesa";
-            this.LblNumeroMesa.Size = new System.Drawing.Size(44, 16);
-            this.LblNumeroMesa.TabIndex = 0;
-            this.LblNumeroMesa.Text = "Mesa:";
+            this.lbl1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.lbl1.AutoSize = true;
+            this.lbl1.Location = new System.Drawing.Point(45, 14);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(44, 16);
+            this.lbl1.TabIndex = 0;
+            this.lbl1.Text = "Mesa:";
+            this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblCliente
+            // lbl2
             // 
-            this.LblCliente.AutoSize = true;
-            this.LblCliente.Location = new System.Drawing.Point(119, 48);
-            this.LblCliente.Name = "LblCliente";
-            this.LblCliente.Size = new System.Drawing.Size(48, 16);
-            this.LblCliente.TabIndex = 1;
-            this.LblCliente.Text = "Cliente";
+            this.lbl2.AutoSize = true;
+            this.lbl2.Location = new System.Drawing.Point(45, 38);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(51, 16);
+            this.lbl2.TabIndex = 1;
+            this.lbl2.Text = "Cliente:";
+            this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblPlatos
+            // lbl3
             // 
-            this.LblPlatos.AutoSize = true;
-            this.LblPlatos.Location = new System.Drawing.Point(119, 89);
-            this.LblPlatos.Name = "LblPlatos";
-            this.LblPlatos.Size = new System.Drawing.Size(45, 16);
-            this.LblPlatos.TabIndex = 2;
-            this.LblPlatos.Text = "Platos";
+            this.lbl3.AutoSize = true;
+            this.lbl3.Location = new System.Drawing.Point(45, 65);
+            this.lbl3.Name = "lbl3";
+            this.lbl3.Size = new System.Drawing.Size(48, 16);
+            this.lbl3.TabIndex = 2;
+            this.lbl3.Text = "Platos:";
+            this.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblFecha
+            // lbl6
             // 
-            this.LblFecha.AutoSize = true;
-            this.LblFecha.Location = new System.Drawing.Point(119, 201);
-            this.LblFecha.Name = "LblFecha";
-            this.LblFecha.Size = new System.Drawing.Size(45, 16);
-            this.LblFecha.TabIndex = 3;
-            this.LblFecha.Text = "Fecha";
+            this.lbl6.AutoSize = true;
+            this.lbl6.Location = new System.Drawing.Point(45, 159);
+            this.lbl6.Name = "lbl6";
+            this.lbl6.Size = new System.Drawing.Size(48, 16);
+            this.lbl6.TabIndex = 3;
+            this.lbl6.Text = "Fecha:";
+            this.lbl6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblTotal
+            // lbl4
             // 
-            this.LblTotal.AutoSize = true;
-            this.LblTotal.Location = new System.Drawing.Point(123, 121);
-            this.LblTotal.Name = "LblTotal";
-            this.LblTotal.Size = new System.Drawing.Size(38, 16);
-            this.LblTotal.TabIndex = 4;
-            this.LblTotal.Text = "Total";
+            this.lbl4.AutoSize = true;
+            this.lbl4.Location = new System.Drawing.Point(45, 93);
+            this.lbl4.Name = "lbl4";
+            this.lbl4.Size = new System.Drawing.Size(41, 16);
+            this.lbl4.TabIndex = 4;
+            this.lbl4.Text = "Total:";
+            this.lbl4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblEstado
+            // lbl5
             // 
-            this.LblEstado.AutoSize = true;
-            this.LblEstado.Location = new System.Drawing.Point(119, 157);
-            this.LblEstado.Name = "LblEstado";
-            this.LblEstado.Size = new System.Drawing.Size(50, 16);
-            this.LblEstado.TabIndex = 5;
-            this.LblEstado.Text = "Estado";
+            this.lbl5.AutoSize = true;
+            this.lbl5.Location = new System.Drawing.Point(45, 126);
+            this.lbl5.Name = "lbl5";
+            this.lbl5.Size = new System.Drawing.Size(53, 16);
+            this.lbl5.TabIndex = 5;
+            this.lbl5.Text = "Estado:";
+            this.lbl5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // button1
+            // btnEditar
             // 
-            this.button1.Location = new System.Drawing.Point(14, 234);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Editar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnEditar.Location = new System.Drawing.Point(123, 187);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(75, 23);
+            this.btnEditar.TabIndex = 6;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnEliminar
             // 
-            this.button3.Location = new System.Drawing.Point(104, 234);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEliminar.Location = new System.Drawing.Point(16, 187);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 8;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnCambiarEstado
             // 
-            this.button4.Location = new System.Drawing.Point(195, 234);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Est";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnCambiarEstado.Location = new System.Drawing.Point(16, 216);
+            this.btnCambiarEstado.Name = "btnCambiarEstado";
+            this.btnCambiarEstado.Size = new System.Drawing.Size(182, 23);
+            this.btnCambiarEstado.TabIndex = 9;
+            this.btnCambiarEstado.Text = "Cambiar estado";
+            this.btnCambiarEstado.UseVisualStyleBackColor = true;
+            // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Location = new System.Drawing.Point(125, 126);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(50, 16);
+            this.lblEstado.TabIndex = 15;
+            this.lblEstado.Text = "Estado";
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Location = new System.Drawing.Point(121, 93);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(38, 16);
+            this.lblTotal.TabIndex = 14;
+            this.lblTotal.Text = "Total";
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Location = new System.Drawing.Point(125, 159);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(45, 16);
+            this.lblFecha.TabIndex = 13;
+            this.lblFecha.Text = "Fecha";
+            // 
+            // lblPlatos
+            // 
+            this.lblPlatos.AutoSize = true;
+            this.lblPlatos.Location = new System.Drawing.Point(121, 65);
+            this.lblPlatos.Name = "lblPlatos";
+            this.lblPlatos.Size = new System.Drawing.Size(45, 16);
+            this.lblPlatos.TabIndex = 12;
+            this.lblPlatos.Text = "Platos";
+            // 
+            // lblCliente
+            // 
+            this.lblCliente.AutoSize = true;
+            this.lblCliente.Location = new System.Drawing.Point(118, 38);
+            this.lblCliente.Name = "lblCliente";
+            this.lblCliente.Size = new System.Drawing.Size(48, 16);
+            this.lblCliente.TabIndex = 11;
+            this.lblCliente.Text = "Cliente";
+            // 
+            // lblNumeroMesa
+            // 
+            this.lblNumeroMesa.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.lblNumeroMesa.AutoSize = true;
+            this.lblNumeroMesa.Location = new System.Drawing.Point(118, 14);
+            this.lblNumeroMesa.Name = "lblNumeroMesa";
+            this.lblNumeroMesa.Size = new System.Drawing.Size(41, 16);
+            this.lblNumeroMesa.TabIndex = 10;
+            this.lblNumeroMesa.Text = "Mesa";
             // 
             // PedidoCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.LblEstado);
-            this.Controls.Add(this.LblTotal);
-            this.Controls.Add(this.LblFecha);
-            this.Controls.Add(this.LblPlatos);
-            this.Controls.Add(this.LblCliente);
-            this.Controls.Add(this.LblNumeroMesa);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.lblTotal);
+            this.Controls.Add(this.lblFecha);
+            this.Controls.Add(this.lblPlatos);
+            this.Controls.Add(this.lblCliente);
+            this.Controls.Add(this.lblNumeroMesa);
+            this.Controls.Add(this.btnCambiarEstado);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.lbl5);
+            this.Controls.Add(this.lbl4);
+            this.Controls.Add(this.lbl6);
+            this.Controls.Add(this.lbl3);
+            this.Controls.Add(this.lbl2);
+            this.Controls.Add(this.lbl1);
             this.Name = "PedidoCard";
-            this.Size = new System.Drawing.Size(285, 277);
+            this.Size = new System.Drawing.Size(214, 253);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,14 +216,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Label LblNumeroMesa;
-        private System.Windows.Forms.Label LblCliente;
-        private System.Windows.Forms.Label LblPlatos;
-        private System.Windows.Forms.Label LblFecha;
-        private System.Windows.Forms.Label LblTotal;
-        private System.Windows.Forms.Label LblEstado;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.Label lbl3;
+        private System.Windows.Forms.Label lbl6;
+        private System.Windows.Forms.Label lbl4;
+        private System.Windows.Forms.Label lbl5;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnCambiarEstado;
+        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.Label lblPlatos;
+        private System.Windows.Forms.Label lblCliente;
+        private System.Windows.Forms.Label lblNumeroMesa;
     }
 }

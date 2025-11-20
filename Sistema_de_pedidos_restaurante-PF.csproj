@@ -102,8 +102,14 @@
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPedido.resx">
+      <DependentUpon>FormPedido.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormUsuario.resx">
       <DependentUpon>FormUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelPedidos.resx">
+      <DependentUpon>PanelPedidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PedidoCard.resx">
       <DependentUpon>PedidoCard.cs</DependentUpon>
