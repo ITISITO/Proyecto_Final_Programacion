@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,6 +27,8 @@ namespace Sistema_de_pedidos_restaurante_PF
 
             CargarDataGrid();
             //CargarPeliculas();
+
+            dataGridView1.CellClick += OnCellClick;
 
         }
 
@@ -101,6 +104,20 @@ namespace Sistema_de_pedidos_restaurante_PF
                     CargarDataGrid();
                 }
             }
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            string archivoSesion = "sesion.json";
+
+            if (File.Exists(archivoSesion))
+                File.Delete(archivoSesion);
+
+            MessageBox.Show("Sesión cerrada correctamente");
+
+            FormLogin login = new FormLogin();
+            login.Show();
+            this.Hide();
         }
     }
 }
