@@ -73,6 +73,16 @@ namespace Sistema_de_pedidos_restaurante_PF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2025_11_20_172526 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2025-11-20 172526", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap depositphotos_187735980_stock_illustration_mexican_traditional_food_restaurant_menu {
             get {
                 object obj = ResourceManager.GetObject("depositphotos_187735980-stock-illustration-mexican-traditional-food-restaurant-me" +
@@ -135,9 +145,29 @@ namespace Sistema_de_pedidos_restaurante_PF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_n0pc9n0pc9n0pc9n {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_n0pc9n0pc9n0pc9n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("image-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("image-removebg-preview (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

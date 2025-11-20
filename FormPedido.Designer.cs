@@ -62,7 +62,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(348, 9);
+            this.label2.Location = new System.Drawing.Point(9, 40);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(162, 17);
@@ -71,32 +71,32 @@
             // 
             // numMesa
             // 
-            this.numMesa.Location = new System.Drawing.Point(162, 4);
+            this.numMesa.Location = new System.Drawing.Point(188, 4);
             this.numMesa.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.numMesa.Name = "numMesa";
-            this.numMesa.Size = new System.Drawing.Size(86, 25);
+            this.numMesa.Size = new System.Drawing.Size(37, 25);
             this.numMesa.TabIndex = 2;
             // 
             // txtCliente
             // 
-            this.txtCliente.Location = new System.Drawing.Point(518, 4);
+            this.txtCliente.Location = new System.Drawing.Point(188, 35);
             this.txtCliente.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(291, 25);
+            this.txtCliente.Size = new System.Drawing.Size(239, 25);
             this.txtCliente.TabIndex = 3;
             // 
             // txtObservaciones
             // 
-            this.txtObservaciones.Location = new System.Drawing.Point(146, 49);
+            this.txtObservaciones.Location = new System.Drawing.Point(188, 70);
             this.txtObservaciones.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtObservaciones.Name = "txtObservaciones";
-            this.txtObservaciones.Size = new System.Drawing.Size(663, 25);
+            this.txtObservaciones.Size = new System.Drawing.Size(239, 25);
             this.txtObservaciones.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 52);
+            this.label3.Location = new System.Drawing.Point(9, 73);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 17);
@@ -106,7 +106,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(43, 87);
+            this.label4.Location = new System.Drawing.Point(45, 117);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(158, 17);
@@ -116,7 +116,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(366, 87);
+            this.label5.Location = new System.Drawing.Point(347, 117);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(154, 17);
@@ -135,10 +135,10 @@
             // 
             // numCantidad
             // 
-            this.numCantidad.Location = new System.Drawing.Point(326, 363);
+            this.numCantidad.Location = new System.Drawing.Point(326, 366);
             this.numCantidad.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.numCantidad.Name = "numCantidad";
-            this.numCantidad.Size = new System.Drawing.Size(98, 25);
+            this.numCantidad.Size = new System.Drawing.Size(56, 25);
             this.numCantidad.TabIndex = 9;
             // 
             // btnAgregar
@@ -153,49 +153,56 @@
             // 
             // btnQuitar
             // 
-            this.btnQuitar.Location = new System.Drawing.Point(433, 398);
+            this.btnQuitar.BackColor = System.Drawing.Color.Red;
+            this.btnQuitar.ForeColor = System.Drawing.Color.Snow;
+            this.btnQuitar.Location = new System.Drawing.Point(13, 493);
             this.btnQuitar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnQuitar.Name = "btnQuitar";
-            this.btnQuitar.Size = new System.Drawing.Size(185, 24);
+            this.btnQuitar.Size = new System.Drawing.Size(92, 36);
             this.btnQuitar.TabIndex = 11;
             this.btnQuitar.Text = "Quitar";
-            this.btnQuitar.UseVisualStyleBackColor = true;
+            this.btnQuitar.UseVisualStyleBackColor = false;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(240, 398);
+            this.btnCancelar.BackColor = System.Drawing.Color.Red;
+            this.btnCancelar.ForeColor = System.Drawing.Color.Snow;
+            this.btnCancelar.Location = new System.Drawing.Point(12, 447);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(185, 24);
+            this.btnCancelar.Size = new System.Drawing.Size(93, 40);
             this.btnCancelar.TabIndex = 14;
             this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.UseVisualStyleBackColor = false;
             // 
             // lblTotal
             // 
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(497, 370);
+            this.lblTotal.Font = new System.Drawing.Font("Lucida Calligraphy", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(425, 366);
             this.lblTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(49, 17);
+            this.lblTotal.Size = new System.Drawing.Size(112, 49);
             this.lblTotal.TabIndex = 12;
             this.lblTotal.Text = "Total";
+            this.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(16, 398);
+            this.btnGuardar.BackColor = System.Drawing.Color.Red;
+            this.btnGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar.Location = new System.Drawing.Point(18, 398);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(185, 24);
+            this.btnGuardar.Size = new System.Drawing.Size(87, 43);
             this.btnGuardar.TabIndex = 15;
             this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.UseVisualStyleBackColor = false;
             // 
             // lstPlatosDisponibles
             // 
             this.lstPlatosDisponibles.FormattingEnabled = true;
             this.lstPlatosDisponibles.ItemHeight = 17;
-            this.lstPlatosDisponibles.Location = new System.Drawing.Point(12, 116);
+            this.lstPlatosDisponibles.Location = new System.Drawing.Point(12, 147);
             this.lstPlatosDisponibles.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstPlatosDisponibles.Name = "lstPlatosDisponibles";
             this.lstPlatosDisponibles.Size = new System.Drawing.Size(255, 208);
@@ -205,7 +212,7 @@
             // 
             this.lstPlatosSeleccionados.FormattingEnabled = true;
             this.lstPlatosSeleccionados.ItemHeight = 17;
-            this.lstPlatosSeleccionados.Location = new System.Drawing.Point(307, 116);
+            this.lstPlatosSeleccionados.Location = new System.Drawing.Point(275, 147);
             this.lstPlatosSeleccionados.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstPlatosSeleccionados.Name = "lstPlatosSeleccionados";
             this.lstPlatosSeleccionados.Size = new System.Drawing.Size(262, 208);
@@ -214,11 +221,11 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.image_removebg_preview;
+            this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.Gemini_Generated_Image_n0pc9n0pc9n0pc9n;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(822, 432);
+            this.pictureBox1.Size = new System.Drawing.Size(546, 621);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
@@ -228,7 +235,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.ClientSize = new System.Drawing.Size(822, 432);
+            this.ClientSize = new System.Drawing.Size(546, 621);
             this.Controls.Add(this.lstPlatosSeleccionados);
             this.Controls.Add(this.lstPlatosDisponibles);
             this.Controls.Add(this.btnGuardar);

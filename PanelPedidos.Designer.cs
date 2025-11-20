@@ -41,21 +41,25 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionarMenúToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(19, 113);
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Wheat;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(8, 106);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(711, 406);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(914, 409);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panel1.BackColor = System.Drawing.Color.Wheat;
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.cmbFiltroEstado);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.lblTiempoSesion);
@@ -66,51 +70,58 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Controls.Add(this.menuStrip1);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(15, 13);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(784, 541);
+            this.panel1.Size = new System.Drawing.Size(980, 575);
             this.panel1.TabIndex = 1;
             // 
             // cmbFiltroEstado
             // 
             this.cmbFiltroEstado.FormattingEnabled = true;
-            this.cmbFiltroEstado.Location = new System.Drawing.Point(155, 70);
+            this.cmbFiltroEstado.Location = new System.Drawing.Point(194, 75);
+            this.cmbFiltroEstado.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbFiltroEstado.Name = "cmbFiltroEstado";
-            this.cmbFiltroEstado.Size = new System.Drawing.Size(121, 24);
+            this.cmbFiltroEstado.Size = new System.Drawing.Size(150, 25);
             this.cmbFiltroEstado.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 73);
+            this.label1.Location = new System.Drawing.Point(4, 75);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 16);
+            this.label1.Size = new System.Drawing.Size(156, 17);
             this.label1.TabIndex = 6;
             this.label1.Text = "Filtrar por estado:";
             // 
             // lblTiempoSesion
             // 
-            this.lblTiempoSesion.AutoSize = true;
-            this.lblTiempoSesion.Location = new System.Drawing.Point(676, 84);
+            this.lblTiempoSesion.Font = new System.Drawing.Font("Lucida Calligraphy", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTiempoSesion.Location = new System.Drawing.Point(817, 75);
+            this.lblTiempoSesion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTiempoSesion.Name = "lblTiempoSesion";
-            this.lblTiempoSesion.Size = new System.Drawing.Size(54, 16);
+            this.lblTiempoSesion.Size = new System.Drawing.Size(105, 25);
             this.lblTiempoSesion.TabIndex = 5;
             this.lblTiempoSesion.Text = "Tiempo";
+            this.lblTiempoSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnCerrarSesion
             // 
-            this.btnCerrarSesion.Location = new System.Drawing.Point(625, 42);
+            this.btnCerrarSesion.Location = new System.Drawing.Point(782, 44);
+            this.btnCerrarSesion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
-            this.btnCerrarSesion.Size = new System.Drawing.Size(142, 23);
+            this.btnCerrarSesion.Size = new System.Drawing.Size(178, 24);
             this.btnCerrarSesion.TabIndex = 4;
             this.btnCerrarSesion.Text = "Cerrar Sesion";
             this.btnCerrarSesion.UseVisualStyleBackColor = true;
             // 
             // btnNuevoPedido
             // 
-            this.btnNuevoPedido.Location = new System.Drawing.Point(458, 42);
+            this.btnNuevoPedido.Location = new System.Drawing.Point(572, 44);
+            this.btnNuevoPedido.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnNuevoPedido.Name = "btnNuevoPedido";
-            this.btnNuevoPedido.Size = new System.Drawing.Size(142, 23);
+            this.btnNuevoPedido.Size = new System.Drawing.Size(178, 24);
             this.btnNuevoPedido.TabIndex = 3;
             this.btnNuevoPedido.Text = "Nuevo Pedido";
             this.btnNuevoPedido.UseVisualStyleBackColor = true;
@@ -118,66 +129,88 @@
             // lblBienvenida
             // 
             this.lblBienvenida.AutoSize = true;
-            this.lblBienvenida.Location = new System.Drawing.Point(4, 42);
+            this.lblBienvenida.Location = new System.Drawing.Point(5, 44);
+            this.lblBienvenida.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBienvenida.Name = "lblBienvenida";
-            this.lblBienvenida.Size = new System.Drawing.Size(75, 16);
+            this.lblBienvenida.Size = new System.Drawing.Size(96, 17);
             this.lblBienvenida.TabIndex = 0;
             this.lblBienvenida.Text = "Bienvenido";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(166, 42);
+            this.label2.Location = new System.Drawing.Point(208, 44);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 16);
+            this.label2.Size = new System.Drawing.Size(70, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(306, 42);
+            this.label3.Location = new System.Drawing.Point(382, 44);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 16);
+            this.label3.Size = new System.Drawing.Size(34, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "Rol";
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.DarkRed;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pedidosToolStripMenuItem,
             this.gestionarMenúToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(784, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(10, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(980, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // pedidosToolStripMenuItem
             // 
+            this.pedidosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pedidosToolStripMenuItem.Name = "pedidosToolStripMenuItem";
-            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
             this.pedidosToolStripMenuItem.Text = "Pedidos";
             // 
             // gestionarMenúToolStripMenuItem1
             // 
+            this.gestionarMenúToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.gestionarMenúToolStripMenuItem1.Name = "gestionarMenúToolStripMenuItem1";
-            this.gestionarMenúToolStripMenuItem1.Size = new System.Drawing.Size(143, 24);
+            this.gestionarMenúToolStripMenuItem1.Size = new System.Drawing.Size(143, 26);
             this.gestionarMenúToolStripMenuItem1.Text = "Gestionar Menú    ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.image_removebg_preview__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(742, 396);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(238, 179);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // PanelPedidos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(807, 566);
+            this.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.ClientSize = new System.Drawing.Size(1008, 602);
             this.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("Lucida Calligraphy", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "PanelPedidos";
             this.Text = "PanelPedidos";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -197,5 +230,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem pedidosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionarMenúToolStripMenuItem1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
