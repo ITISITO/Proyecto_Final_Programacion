@@ -25,12 +25,8 @@ namespace Sistema_de_pedidos_restaurante_PF
             Width = 500;
             MaximizeBox = true;
             FormBorderStyle = FormBorderStyle.None;
+
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
-
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-
             lista = usuario.ReadDataFromJson();
 
             txtNombre.Text = usuarioSeleccionado.Nombre;
@@ -44,6 +40,8 @@ namespace Sistema_de_pedidos_restaurante_PF
         public FormRegistro()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
         }
 
         private void LimpiarLabelsError()
