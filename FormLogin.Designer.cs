@@ -50,7 +50,7 @@
             this.lblCorreo.Location = new System.Drawing.Point(127, 171);
             this.lblCorreo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(158, 37);
+            this.lblCorreo.Size = new System.Drawing.Size(176, 44);
             this.lblCorreo.TabIndex = 0;
             this.lblCorreo.Text = "Correo Electronico";
             this.lblCorreo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -66,7 +66,7 @@
             this.lblPassword.Location = new System.Drawing.Point(115, 254);
             this.lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(170, 53);
+            this.lblPassword.Size = new System.Drawing.Size(188, 60);
             this.lblPassword.TabIndex = 1;
             this.lblPassword.Text = "Contraseña";
             this.lblPassword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -83,7 +83,7 @@
             this.txtCorreo.Location = new System.Drawing.Point(96, 201);
             this.txtCorreo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(267, 33);
+            this.txtCorreo.Size = new System.Drawing.Size(285, 33);
             this.txtCorreo.TabIndex = 2;
             // 
             // txtContrasena
@@ -98,7 +98,7 @@
             this.txtContrasena.Location = new System.Drawing.Point(96, 298);
             this.txtContrasena.Margin = new System.Windows.Forms.Padding(4);
             this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(252, 33);
+            this.txtContrasena.Size = new System.Drawing.Size(270, 33);
             this.txtContrasena.TabIndex = 3;
             // 
             // btnIniciarSesion
@@ -109,10 +109,10 @@
             this.btnIniciarSesion.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.btnIniciarSesion.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciarSesion.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(119, 355);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(120, 366);
             this.btnIniciarSesion.Margin = new System.Windows.Forms.Padding(4);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.Size = new System.Drawing.Size(190, 36);
+            this.btnIniciarSesion.Size = new System.Drawing.Size(208, 43);
             this.btnIniciarSesion.TabIndex = 4;
             this.btnIniciarSesion.Text = "Iniciar Sesion";
             this.btnIniciarSesion.UseVisualStyleBackColor = false;
@@ -126,10 +126,10 @@
             this.btnRegistrarse.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.btnRegistrarse.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarse.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnRegistrarse.Location = new System.Drawing.Point(151, 398);
+            this.btnRegistrarse.Location = new System.Drawing.Point(151, 428);
             this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrarse.Name = "btnRegistrarse";
-            this.btnRegistrarse.Size = new System.Drawing.Size(134, 34);
+            this.btnRegistrarse.Size = new System.Drawing.Size(152, 41);
             this.btnRegistrarse.TabIndex = 5;
             this.btnRegistrarse.Text = "Registrarse";
             this.btnRegistrarse.UseVisualStyleBackColor = false;
@@ -146,7 +146,7 @@
             this.label1.Location = new System.Drawing.Point(91, 47);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 125);
+            this.label1.Size = new System.Drawing.Size(264, 132);
             this.label1.TabIndex = 7;
             this.label1.Text = "Login";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -157,7 +157,7 @@
             this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.fondopf;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(403, 522);
+            this.pictureBox1.Size = new System.Drawing.Size(421, 529);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -167,7 +167,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(403, 522);
+            this.ClientSize = new System.Drawing.Size(421, 529);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnRegistrarse);
             this.Controls.Add(this.btnIniciarSesion);

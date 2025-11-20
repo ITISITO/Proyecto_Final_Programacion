@@ -24,6 +24,10 @@ namespace Sistema_de_pedidos_restaurante_PF
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Text = "Inicio de Sesión";
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
+    
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+
 
 
             // Verificar si hay una sesión activa
