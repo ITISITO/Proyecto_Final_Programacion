@@ -39,9 +39,6 @@ namespace Sistema_de_pedidos_restaurante_PF
                 }
             }
 
-
-            btnIniciarSesion.Click += btnIniciarSesion_Click;
-            btnRegistrarse.Click += btnRegistrarse_Click;
         }
 
         private void btnIniciarSesion_Click(object sender, EventArgs e)

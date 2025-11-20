@@ -135,7 +135,7 @@
             this.Controls.Add(this.LblCliente);
             this.Controls.Add(this.LblNumeroMesa);
             this.Name = "PedidoCard";
-            this.Size = new System.Drawing.Size(285, 265);
+            this.Size = new System.Drawing.Size(285, 277);
             this.ResumeLayout(false);
             this.PerformLayout();
 
