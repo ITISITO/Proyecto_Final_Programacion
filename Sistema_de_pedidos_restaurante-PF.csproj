@@ -162,5 +162,8 @@
   <ItemGroup>
     <None Include="Resources\fondopf.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_187735980-stock-illustration-mexican-traditional-food-restaurant-menu1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

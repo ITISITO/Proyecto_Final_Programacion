@@ -74,6 +74,17 @@ namespace Sistema_de_pedidos_restaurante_PF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap depositphotos_187735980_stock_illustration_mexican_traditional_food_restaurant_menu1 {
+            get {
+                object obj = ResourceManager.GetObject("depositphotos_187735980-stock-illustration-mexican-traditional-food-restaurant-me" +
+                        "nu1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap diffuse_819392_1280 {
             get {
                 object obj = ResourceManager.GetObject("diffuse-819392_1280", resourceCulture);
