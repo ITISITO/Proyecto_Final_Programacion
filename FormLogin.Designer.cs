@@ -47,10 +47,10 @@
             this.lblCorreo.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.lblCorreo.Font = new System.Drawing.Font("Lucida Handwriting", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCorreo.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lblCorreo.Location = new System.Drawing.Point(175, 256);
-            this.lblCorreo.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblCorreo.Location = new System.Drawing.Point(131, 178);
+            this.lblCorreo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(343, 63);
+            this.lblCorreo.Size = new System.Drawing.Size(257, 44);
             this.lblCorreo.TabIndex = 0;
             this.lblCorreo.Text = "Correo Electronico";
             this.lblCorreo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -63,10 +63,10 @@
             this.lblPassword.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.lblPassword.Font = new System.Drawing.Font("Lucida Handwriting", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lblPassword.Location = new System.Drawing.Point(157, 398);
-            this.lblPassword.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblPassword.Location = new System.Drawing.Point(118, 277);
+            this.lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(361, 53);
+            this.lblPassword.Size = new System.Drawing.Size(271, 37);
             this.lblPassword.TabIndex = 1;
             this.lblPassword.Text = "Contraseña";
             this.lblPassword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -80,10 +80,10 @@
             this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCorreo.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCorreo.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txtCorreo.Location = new System.Drawing.Point(144, 312);
-            this.txtCorreo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtCorreo.Location = new System.Drawing.Point(108, 217);
+            this.txtCorreo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(389, 33);
+            this.txtCorreo.Size = new System.Drawing.Size(292, 33);
             this.txtCorreo.TabIndex = 2;
             // 
             // txtContrasena
@@ -95,10 +95,10 @@
             this.txtContrasena.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtContrasena.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContrasena.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txtContrasena.Location = new System.Drawing.Point(144, 457);
-            this.txtContrasena.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtContrasena.Location = new System.Drawing.Point(108, 318);
+            this.txtContrasena.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(389, 33);
+            this.txtContrasena.Size = new System.Drawing.Size(292, 33);
             this.txtContrasena.TabIndex = 3;
             // 
             // btnIniciarSesion
@@ -109,10 +109,10 @@
             this.btnIniciarSesion.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.btnIniciarSesion.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciarSesion.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(180, 526);
-            this.btnIniciarSesion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(135, 366);
+            this.btnIniciarSesion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.Size = new System.Drawing.Size(312, 62);
+            this.btnIniciarSesion.Size = new System.Drawing.Size(234, 43);
             this.btnIniciarSesion.TabIndex = 4;
             this.btnIniciarSesion.Text = "Iniciar Sesion";
             this.btnIniciarSesion.UseVisualStyleBackColor = false;
@@ -126,10 +126,10 @@
             this.btnRegistrarse.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.btnRegistrarse.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarse.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnRegistrarse.Location = new System.Drawing.Point(211, 600);
-            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRegistrarse.Location = new System.Drawing.Point(158, 417);
+            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRegistrarse.Name = "btnRegistrarse";
-            this.btnRegistrarse.Size = new System.Drawing.Size(228, 59);
+            this.btnRegistrarse.Size = new System.Drawing.Size(171, 41);
             this.btnRegistrarse.TabIndex = 5;
             this.btnRegistrarse.Text = "Registrarse";
             this.btnRegistrarse.UseVisualStyleBackColor = false;
@@ -143,10 +143,10 @@
             this.label1.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.label1.Font = new System.Drawing.Font("Lucida Handwriting", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label1.Location = new System.Drawing.Point(124, 75);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(93, 52);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(409, 143);
+            this.label1.Size = new System.Drawing.Size(307, 100);
             this.label1.TabIndex = 7;
             this.label1.Text = "Login";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -156,19 +156,19 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.fondopf;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(631, 760);
+            this.pictureBox1.Size = new System.Drawing.Size(473, 529);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
             // FormLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(631, 760);
+            this.ClientSize = new System.Drawing.Size(473, 529);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnRegistrarse);
             this.Controls.Add(this.btnIniciarSesion);
@@ -177,9 +177,9 @@
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblCorreo);
             this.Controls.Add(this.pictureBox1);
-            this.Font = new System.Drawing.Font("Lucida Handwriting", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Lucida Handwriting", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormLogin";
             this.Text = "FormLogin";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

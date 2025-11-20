@@ -48,8 +48,8 @@
             this.lblNombre.BackColor = System.Drawing.Color.Wheat;
             this.lblNombre.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lblNombre.Location = new System.Drawing.Point(200, 37);
-            this.lblNombre.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblNombre.Location = new System.Drawing.Point(167, 27);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(105, 27);
             this.lblNombre.TabIndex = 0;
@@ -57,19 +57,19 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(126, 80);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtNombre.Location = new System.Drawing.Point(105, 59);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(242, 31);
+            this.txtNombre.Size = new System.Drawing.Size(202, 25);
             this.txtNombre.TabIndex = 1;
             // 
             // lblCorreoElec
             // 
             this.lblCorreoElec.AutoSize = true;
-            this.lblCorreoElec.Location = new System.Drawing.Point(151, 140);
-            this.lblCorreoElec.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblCorreoElec.Location = new System.Drawing.Point(126, 103);
+            this.lblCorreoElec.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblCorreoElec.Name = "lblCorreoElec";
-            this.lblCorreoElec.Size = new System.Drawing.Size(204, 23);
+            this.lblCorreoElec.Size = new System.Drawing.Size(161, 17);
             this.lblCorreoElec.TabIndex = 2;
             this.lblCorreoElec.Text = "Correo Electronico";
             // 
@@ -77,10 +77,10 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.lblPassword.Location = new System.Drawing.Point(172, 242);
-            this.lblPassword.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblPassword.Location = new System.Drawing.Point(143, 179);
+            this.lblPassword.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(130, 23);
+            this.lblPassword.Size = new System.Drawing.Size(103, 17);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Contraseña";
             // 
@@ -88,43 +88,43 @@
             // 
             this.lblConfirmarPassword.AutoSize = true;
             this.lblConfirmarPassword.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.lblConfirmarPassword.Location = new System.Drawing.Point(144, 361);
-            this.lblConfirmarPassword.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblConfirmarPassword.Location = new System.Drawing.Point(120, 267);
+            this.lblConfirmarPassword.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblConfirmarPassword.Name = "lblConfirmarPassword";
-            this.lblConfirmarPassword.Size = new System.Drawing.Size(244, 23);
+            this.lblConfirmarPassword.Size = new System.Drawing.Size(192, 17);
             this.lblConfirmarPassword.TabIndex = 4;
             this.lblConfirmarPassword.Text = "Confirmar contraseña";
             // 
             // txtCorreoElec
             // 
-            this.txtCorreoElec.Location = new System.Drawing.Point(126, 184);
-            this.txtCorreoElec.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtCorreoElec.Location = new System.Drawing.Point(105, 136);
+            this.txtCorreoElec.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtCorreoElec.Name = "txtCorreoElec";
-            this.txtCorreoElec.Size = new System.Drawing.Size(242, 31);
+            this.txtCorreoElec.Size = new System.Drawing.Size(202, 25);
             this.txtCorreoElec.TabIndex = 5;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(122, 285);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtPassword.Location = new System.Drawing.Point(102, 211);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(248, 31);
+            this.txtPassword.Size = new System.Drawing.Size(207, 25);
             this.txtPassword.TabIndex = 6;
             // 
             // txtConfirmarPass
             // 
-            this.txtConfirmarPass.Location = new System.Drawing.Point(126, 402);
-            this.txtConfirmarPass.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtConfirmarPass.Location = new System.Drawing.Point(105, 297);
+            this.txtConfirmarPass.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtConfirmarPass.Name = "txtConfirmarPass";
-            this.txtConfirmarPass.Size = new System.Drawing.Size(242, 31);
+            this.txtConfirmarPass.Size = new System.Drawing.Size(202, 25);
             this.txtConfirmarPass.TabIndex = 7;
             // 
             // btnEnviar
             // 
-            this.btnEnviar.Location = new System.Drawing.Point(175, 460);
-            this.btnEnviar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnEnviar.Location = new System.Drawing.Point(146, 340);
+            this.btnEnviar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(150, 40);
+            this.btnEnviar.Size = new System.Drawing.Size(125, 30);
             this.btnEnviar.TabIndex = 8;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = true;
@@ -132,10 +132,10 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(175, 512);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnCancelar.Location = new System.Drawing.Point(146, 378);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(150, 40);
+            this.btnCancelar.Size = new System.Drawing.Size(125, 30);
             this.btnCancelar.TabIndex = 9;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -146,18 +146,18 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.fondopf;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(476, 669);
+            this.pictureBox1.Size = new System.Drawing.Size(397, 494);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // FormRegistro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 669);
+            this.ClientSize = new System.Drawing.Size(397, 494);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.txtConfirmarPass);
@@ -169,9 +169,9 @@
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.pictureBox1);
-            this.Font = new System.Drawing.Font("Lucida Handwriting", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Lucida Handwriting", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.OrangeRed;
-            this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "FormRegistro";
             this.Text = "FormRegistro";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

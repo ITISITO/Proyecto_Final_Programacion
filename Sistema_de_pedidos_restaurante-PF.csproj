@@ -165,5 +165,11 @@
   <ItemGroup>
     <None Include="Resources\depositphotos_187735980-stock-illustration-mexican-traditional-food-restaurant-menu1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2025-11-20 145546.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
