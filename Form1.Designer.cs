@@ -43,72 +43,81 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(32, 9);
+            this.lblNombre.Location = new System.Drawing.Point(43, 11);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(44, 13);
+            this.lblNombre.Size = new System.Drawing.Size(56, 16);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Nombre";
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(12, 36);
+            this.txtNombre.Location = new System.Drawing.Point(16, 44);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtNombre.Size = new System.Drawing.Size(132, 22);
             this.txtNombre.TabIndex = 1;
             // 
             // lblCorreoElec
             // 
             this.lblCorreoElec.AutoSize = true;
-            this.lblCorreoElec.Location = new System.Drawing.Point(18, 88);
+            this.lblCorreoElec.Location = new System.Drawing.Point(24, 108);
+            this.lblCorreoElec.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCorreoElec.Name = "lblCorreoElec";
-            this.lblCorreoElec.Size = new System.Drawing.Size(94, 13);
+            this.lblCorreoElec.Size = new System.Drawing.Size(118, 16);
             this.lblCorreoElec.TabIndex = 2;
             this.lblCorreoElec.Text = "Correo Electronico";
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(32, 163);
+            this.lblPassword.Location = new System.Drawing.Point(43, 201);
+            this.lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(61, 13);
+            this.lblPassword.Size = new System.Drawing.Size(76, 16);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Contraseña";
             // 
             // lblConfirmarPassword
             // 
             this.lblConfirmarPassword.AutoSize = true;
-            this.lblConfirmarPassword.Location = new System.Drawing.Point(9, 229);
+            this.lblConfirmarPassword.Location = new System.Drawing.Point(12, 282);
+            this.lblConfirmarPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConfirmarPassword.Name = "lblConfirmarPassword";
-            this.lblConfirmarPassword.Size = new System.Drawing.Size(107, 13);
+            this.lblConfirmarPassword.Size = new System.Drawing.Size(134, 16);
             this.lblConfirmarPassword.TabIndex = 4;
             this.lblConfirmarPassword.Text = "Confirmar contraseña";
             // 
             // txtCorreoElec
             // 
-            this.txtCorreoElec.Location = new System.Drawing.Point(12, 118);
+            this.txtCorreoElec.Location = new System.Drawing.Point(16, 145);
+            this.txtCorreoElec.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCorreoElec.Name = "txtCorreoElec";
-            this.txtCorreoElec.Size = new System.Drawing.Size(100, 20);
+            this.txtCorreoElec.Size = new System.Drawing.Size(132, 22);
             this.txtCorreoElec.TabIndex = 5;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(12, 189);
+            this.txtPassword.Location = new System.Drawing.Point(16, 233);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(100, 20);
+            this.txtPassword.Size = new System.Drawing.Size(132, 22);
             this.txtPassword.TabIndex = 6;
             // 
             // txtConfirmarPass
             // 
-            this.txtConfirmarPass.Location = new System.Drawing.Point(12, 256);
+            this.txtConfirmarPass.Location = new System.Drawing.Point(16, 315);
+            this.txtConfirmarPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtConfirmarPass.Name = "txtConfirmarPass";
-            this.txtConfirmarPass.Size = new System.Drawing.Size(100, 20);
+            this.txtConfirmarPass.Size = new System.Drawing.Size(132, 22);
             this.txtConfirmarPass.TabIndex = 7;
             // 
             // btnEnviar
             // 
-            this.btnEnviar.Location = new System.Drawing.Point(12, 320);
+            this.btnEnviar.Location = new System.Drawing.Point(16, 394);
+            this.btnEnviar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(75, 23);
+            this.btnEnviar.Size = new System.Drawing.Size(100, 28);
             this.btnEnviar.TabIndex = 8;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = true;
@@ -116,9 +125,10 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(137, 320);
+            this.btnCancelar.Location = new System.Drawing.Point(183, 394);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.Size = new System.Drawing.Size(100, 28);
             this.btnCancelar.TabIndex = 9;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -126,9 +136,9 @@
             // 
             // FormRegistro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.txtConfirmarPass);
@@ -139,7 +149,7 @@
             this.Controls.Add(this.lblCorreoElec);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNombre);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormRegistro";
             this.Text = "FormRegistro";
             this.ResumeLayout(false);
