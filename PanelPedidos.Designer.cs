@@ -37,8 +37,8 @@
             this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.btnNuevoPedido = new System.Windows.Forms.Button();
             this.lblBienvenida = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblRol = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionarMenúToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -66,8 +66,8 @@
             this.panel1.Controls.Add(this.btnCerrarSesion);
             this.panel1.Controls.Add(this.btnNuevoPedido);
             this.panel1.Controls.Add(this.lblBienvenida);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.lblNombre);
+            this.panel1.Controls.Add(this.lblRol);
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Location = new System.Drawing.Point(15, 13);
@@ -95,6 +95,7 @@
             this.cmbFiltroEstado.Name = "cmbFiltroEstado";
             this.cmbFiltroEstado.Size = new System.Drawing.Size(150, 24);
             this.cmbFiltroEstado.TabIndex = 7;
+            this.cmbFiltroEstado.SelectedIndexChanged += new System.EventHandler(this.cmbFiltroEstado_SelectedIndexChanged_1);
             // 
             // label1
             // 
@@ -108,11 +109,12 @@
             // 
             // lblTiempoSesion
             // 
+            this.lblTiempoSesion.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblTiempoSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTiempoSesion.Location = new System.Drawing.Point(817, 75);
+            this.lblTiempoSesion.Location = new System.Drawing.Point(655, 74);
             this.lblTiempoSesion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTiempoSesion.Name = "lblTiempoSesion";
-            this.lblTiempoSesion.Size = new System.Drawing.Size(105, 25);
+            this.lblTiempoSesion.Size = new System.Drawing.Size(305, 25);
             this.lblTiempoSesion.TabIndex = 5;
             this.lblTiempoSesion.Text = "Tiempo";
             this.lblTiempoSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -137,7 +139,7 @@
             this.btnNuevoPedido.TabIndex = 3;
             this.btnNuevoPedido.Text = "Nuevo Pedido";
             this.btnNuevoPedido.UseVisualStyleBackColor = true;
-            this.btnNuevoPedido.Click += new System.EventHandler(this.btnNuevoPedido_Click);
+            this.btnNuevoPedido.Click += new System.EventHandler(this.btnNuevoPedido_Click_1);
             // 
             // lblBienvenida
             // 
@@ -149,25 +151,25 @@
             this.lblBienvenida.TabIndex = 0;
             this.lblBienvenida.Text = "Bienvenido";
             // 
-            // label2
+            // lblNombre
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(208, 44);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nombre";
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(107, 44);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(62, 16);
+            this.lblNombre.TabIndex = 1;
+            this.lblNombre.Text = "Nombre";
             // 
-            // label3
+            // lblRol
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(382, 44);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 16);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Rol";
+            this.lblRol.AutoSize = true;
+            this.lblRol.Location = new System.Drawing.Point(272, 44);
+            this.lblRol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblRol.Name = "lblRol";
+            this.lblRol.Size = new System.Drawing.Size(31, 16);
+            this.lblRol.TabIndex = 2;
+            this.lblRol.Text = "Rol";
             // 
             // menuStrip1
             // 
@@ -196,6 +198,7 @@
             this.gestionarMenúToolStripMenuItem1.Name = "gestionarMenúToolStripMenuItem1";
             this.gestionarMenúToolStripMenuItem1.Size = new System.Drawing.Size(143, 24);
             this.gestionarMenúToolStripMenuItem1.Text = "Gestionar Menú    ";
+            this.gestionarMenúToolStripMenuItem1.Click += new System.EventHandler(this.gestionarMenúToolStripMenuItem1_Click);
             // 
             // PanelPedidos
             // 
@@ -227,8 +230,8 @@
         private System.Windows.Forms.Button btnCerrarSesion;
         private System.Windows.Forms.Button btnNuevoPedido;
         private System.Windows.Forms.Label lblBienvenida;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Label lblRol;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem pedidosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionarMenúToolStripMenuItem1;

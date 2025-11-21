@@ -80,7 +80,7 @@
             this.chkDisponible.Location = new System.Drawing.Point(12, 331);
             this.chkDisponible.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.chkDisponible.Name = "chkDisponible";
-            this.chkDisponible.Size = new System.Drawing.Size(118, 21);
+            this.chkDisponible.Size = new System.Drawing.Size(104, 20);
             this.chkDisponible.TabIndex = 12;
             this.chkDisponible.Text = "Dispónible";
             this.chkDisponible.UseVisualStyleBackColor = true;
@@ -96,6 +96,7 @@
             this.btnLimpiar.TabIndex = 5;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click_1);
             // 
             // cmbCategoria
             // 
@@ -103,7 +104,7 @@
             this.cmbCategoria.Location = new System.Drawing.Point(4, 135);
             this.cmbCategoria.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(150, 25);
+            this.cmbCategoria.Size = new System.Drawing.Size(150, 24);
             this.cmbCategoria.TabIndex = 11;
             // 
             // btnEliminar
@@ -117,13 +118,14 @@
             this.btnEliminar.TabIndex = 4;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click_1);
             // 
             // txtDescripcion
             // 
             this.txtDescripcion.Location = new System.Drawing.Point(8, 279);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(124, 25);
+            this.txtDescripcion.Size = new System.Drawing.Size(124, 22);
             this.txtDescripcion.TabIndex = 10;
             // 
             // btnActualizar
@@ -137,13 +139,14 @@
             this.btnActualizar.TabIndex = 3;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click_1);
             // 
             // txtPrecio
             // 
             this.txtPrecio.Location = new System.Drawing.Point(6, 206);
             this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(124, 25);
+            this.txtPrecio.Size = new System.Drawing.Size(124, 22);
             this.txtPrecio.TabIndex = 9;
             // 
             // btnAgregar
@@ -157,13 +160,14 @@
             this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click_1);
             // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(8, 69);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(124, 25);
+            this.txtNombre.Size = new System.Drawing.Size(124, 22);
             this.txtNombre.TabIndex = 7;
             // 
             // label5
@@ -172,7 +176,7 @@
             this.label5.Location = new System.Drawing.Point(4, 259);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 17);
+            this.label5.Size = new System.Drawing.Size(98, 16);
             this.label5.TabIndex = 6;
             this.label5.Text = "Descripción: ";
             // 
@@ -182,7 +186,7 @@
             this.label4.Location = new System.Drawing.Point(2, 187);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 17);
+            this.label4.Size = new System.Drawing.Size(56, 16);
             this.label4.TabIndex = 5;
             this.label4.Text = "Precio:";
             // 
@@ -192,7 +196,7 @@
             this.label3.Location = new System.Drawing.Point(8, 115);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 17);
+            this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Categoria:";
             // 
@@ -202,7 +206,7 @@
             this.label2.Location = new System.Drawing.Point(4, 49);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 17);
+            this.label2.Size = new System.Drawing.Size(128, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nombre de Plato:";
             // 
@@ -212,7 +216,7 @@
             this.label1.Location = new System.Drawing.Point(62, 12);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 17);
+            this.label1.Size = new System.Drawing.Size(130, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Gestion de Platos";
             // 
@@ -227,11 +231,12 @@
             this.dgvPlatos.RowTemplate.Height = 24;
             this.dgvPlatos.Size = new System.Drawing.Size(286, 436);
             this.dgvPlatos.TabIndex = 1;
+            this.dgvPlatos.SelectionChanged += new System.EventHandler(this.dgvPlatos_SelectionChanged_1);
             // 
             // label6
             // 
             this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Font = new System.Drawing.Font("Lucida Handwriting", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(428, 163);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
@@ -266,7 +271,7 @@
             // 
             // FormGestionPlatos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.ClientSize = new System.Drawing.Size(865, 828);
@@ -275,11 +280,10 @@
             this.Controls.Add(this.dgvPlatos);
             this.Controls.Add(this.panelForm);
             this.Controls.Add(this.pictureBox1);
-            this.Font = new System.Drawing.Font("Lucida Handwriting", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "FormGestionPlatos";
             this.Text = "FormGestionPlatos";
-            this.Load += new System.EventHandler(this.FormGestionPlatos_Load);
             this.panelForm.ResumeLayout(false);
             this.panelForm.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlatos)).EndInit();

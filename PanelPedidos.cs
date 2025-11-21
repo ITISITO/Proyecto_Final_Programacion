@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using Newtonsoft.Json;
-using System.Linq;
 
 namespace Sistema_de_pedidos_restaurante_PF
 {
@@ -14,9 +11,6 @@ namespace Sistema_de_pedidos_restaurante_PF
         private Timer temporizador;
         private int tiempoRestante;
 
-        private Pedido pedido = new Pedido();
-        private List<Pedido> ListaPedidos = new List<Pedido>();
-
         public PanelPedidos(SesionLogin sesion)
         {
             InitializeComponent();
@@ -25,8 +19,7 @@ namespace Sistema_de_pedidos_restaurante_PF
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormClosing += Cerrar_Formulario;
 
-            ListaPedidos = pedido.ReadDataFromJson();
-
+            // Verificar que los platos de ejemplo existan
             Plato platoEjemplo = new Plato();
             if (platoEjemplo.ReadDataFromJson().Count == 0)
             {
@@ -34,17 +27,24 @@ namespace Sistema_de_pedidos_restaurante_PF
             }
 
             InicializarInterfazSesion();
-            CargarPedidos();
             IniciarContadorSesion();
         }
 
         private void InicializarInterfazSesion()
         {
-            this.Text = $"Sistema de Pedidos - {sesionActiva.Nombre} ({sesionActiva.Rol})";
+            // Actualizar los labels con la información del usuario
+            lblNombre.Text = sesionActiva.Nombre;
+            lblRol.Text = sesionActiva.Rol;
+
+            // Cargar estados en el ComboBox
+            cmbFiltroEstado.Items.Clear();
+            cmbFiltroEstado.Items.AddRange(new object[] { "Todos", "En Preparación", "Listo", "Entregado" });
+            cmbFiltroEstado.SelectedIndex = 0; // Seleccionar "Todos" por defecto
         }
 
         private void IniciarContadorSesion()
         {
+            // Calcular tiempo restante desde que inició la sesión
             if (sesionActiva != null)
             {
                 var inicio = sesionActiva.FechaInicio;
@@ -54,11 +54,12 @@ namespace Sistema_de_pedidos_restaurante_PF
             }
             else
             {
-                tiempoRestante = 30 * 60;
+                tiempoRestante = 30 * 60; // 30 minutos en segundos
             }
 
+            // Crear y configurar el timer
             temporizador = new Timer();
-            temporizador.Interval = 1000;
+            temporizador.Interval = 1000; // 1 segundo
             temporizador.Tick += TemporizadorSesion_Tick;
             temporizador.Start();
 
@@ -86,7 +87,7 @@ namespace Sistema_de_pedidos_restaurante_PF
             int minutos = tiempoRestante / 60;
             int segundos = tiempoRestante % 60;
 
-            this.Text = $"Sistema de Pedidos - {sesionActiva.Nombre} | ⏱️ {minutos:D2}:{segundos:D2}";
+            lblTiempoSesion.Text = $"Tiempo Restante: {minutos:D2}:{segundos:D2}";
         }
 
         private void CerrarSesionPorExpiracion()
@@ -120,7 +121,6 @@ namespace Sistema_de_pedidos_restaurante_PF
             this.Close();
         }
 
-
         private void Cerrar_Formulario(object sender, FormClosingEventArgs e)
         {
             if (temporizador != null)
@@ -130,11 +130,6 @@ namespace Sistema_de_pedidos_restaurante_PF
             }
 
             Application.Exit();
-        }
-
-        private void CargarPedidos()
-        {
-            // Tu código para cargar pedidos
         }
 
         private void btnCerrarSesion_Click(object sender, EventArgs e)
@@ -151,9 +146,23 @@ namespace Sistema_de_pedidos_restaurante_PF
             }
         }
 
-        private void btnNuevoPedido_Click(object sender, EventArgs e)
+        private void cmbFiltroEstado_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnNuevoPedido_Click_1(object sender, EventArgs e)
+        {
+            // Abrir formulario de nuevo pedido
+            FormPedido formPedido = new FormPedido();
+            formPedido.ShowDialog();
+        }
+
+        private void gestionarMenúToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            // Abrir formulario de gestión de platos
+            FormGestionPlatos formPlatos = new FormGestionPlatos();
+            formPlatos.ShowDialog();
         }
     }
 }
