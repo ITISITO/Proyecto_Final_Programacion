@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowPanelPedidos = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cmbFiltroEstado = new System.Windows.Forms.ComboBox();
@@ -47,14 +47,14 @@
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // flowLayoutPanel1
+            // flowPanelPedidos
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Wheat;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(8, 106);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(914, 409);
-            this.flowLayoutPanel1.TabIndex = 1;
+            this.flowPanelPedidos.BackColor = System.Drawing.Color.Wheat;
+            this.flowPanelPedidos.Location = new System.Drawing.Point(8, 106);
+            this.flowPanelPedidos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.flowPanelPedidos.Name = "flowPanelPedidos";
+            this.flowPanelPedidos.Size = new System.Drawing.Size(914, 409);
+            this.flowPanelPedidos.TabIndex = 1;
             // 
             // panel1
             // 
@@ -68,7 +68,7 @@
             this.panel1.Controls.Add(this.lblBienvenida);
             this.panel1.Controls.Add(this.lblNombre);
             this.panel1.Controls.Add(this.lblRol);
-            this.panel1.Controls.Add(this.flowLayoutPanel1);
+            this.panel1.Controls.Add(this.flowPanelPedidos);
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Location = new System.Drawing.Point(15, 13);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -222,7 +222,7 @@
 
         #endregion
 
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel flowPanelPedidos;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox cmbFiltroEstado;
         private System.Windows.Forms.Label label1;
