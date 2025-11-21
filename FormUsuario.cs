@@ -22,13 +22,13 @@ namespace Sistema_de_pedidos_restaurante_PF
         {
             InitializeComponent();
 
-            dataGridView1.DataSource = usuario.ReadDataFromJson();
+            dgvPersonas.DataSource = usuario.ReadDataFromJson();
             Console.WriteLine(usuario.ReadDataFromJson());
 
             CargarDataGrid();
             //CargarPeliculas();
 
-            dataGridView1.CellClick += OnCellClick;
+            dgvPersonas.CellClick += OnCellClick;
 
         }
 
@@ -47,31 +47,31 @@ namespace Sistema_de_pedidos_restaurante_PF
         private void CargarDataGrid()
         {
             lista = usuario.ReadDataFromJson();
-            dataGridView1.Columns.Clear();
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = lista;
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvPersonas.Columns.Clear();
+            dgvPersonas.DataSource = null;
+            dgvPersonas.DataSource = lista;
+            dgvPersonas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
 
-            if (!dataGridView1.Columns.Contains("Editar"))
+            if (!dgvPersonas.Columns.Contains("Editar"))
             {
                 DataGridViewButtonColumn btnEditar = new DataGridViewButtonColumn();
                 btnEditar.HeaderText = "Editar";
                 btnEditar.Name = "btnEditar";
                 btnEditar.Text = "Editar";
                 btnEditar.UseColumnTextForButtonValue = true;
-                dataGridView1.Columns.Add(btnEditar);
+                dgvPersonas.Columns.Add(btnEditar);
 
             }
 
-            if (!dataGridView1.Columns.Contains("Eliminar")) // HOYYYYYYYYYYYYYYYY 1 OCTUBRE
+            if (!dgvPersonas.Columns.Contains("Eliminar")) // HOYYYYYYYYYYYYYYYY 1 OCTUBRE
             {
                 DataGridViewButtonColumn btnEliminar = new DataGridViewButtonColumn();
                 btnEliminar.HeaderText = "Eliminar";
                 btnEliminar.Name = "btnEliminar";
                 btnEliminar.Text = "Eliminar";
                 btnEliminar.UseColumnTextForButtonValue = true;
-                dataGridView1.Columns.Add(btnEliminar);
+                dgvPersonas.Columns.Add(btnEliminar);
 
             }
 
@@ -80,7 +80,7 @@ namespace Sistema_de_pedidos_restaurante_PF
 
         private void OnCellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0 && e.ColumnIndex == dataGridView1.Columns["btnEditar"].Index)
+            if (e.RowIndex >= 0 && e.ColumnIndex == dgvPersonas.Columns["btnEditar"].Index)
             {
                 var usuarioSeleccionado = lista[e.RowIndex];
                 FormRegistro form1 = new FormRegistro(usuarioSeleccionado);
@@ -91,7 +91,7 @@ namespace Sistema_de_pedidos_restaurante_PF
                 }
             }
 
-            if (dataGridView1.Columns[e.ColumnIndex].Name == "btnEliminar") // Hoyyyyyy 
+            if (dgvPersonas.Columns[e.ColumnIndex].Name == "btnEliminar") // Hoyyyyyy 
             {
                 var usuarioSeleccionado = lista[e.RowIndex];
 
@@ -119,5 +119,6 @@ namespace Sistema_de_pedidos_restaurante_PF
             login.Show();
             this.Hide();
         }
+
     }
 }
