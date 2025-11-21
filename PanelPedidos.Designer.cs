@@ -30,6 +30,7 @@
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cmbFiltroEstado = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblTiempoSesion = new System.Windows.Forms.Label();
@@ -41,10 +42,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionarMenúToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -76,13 +76,24 @@
             this.panel1.Size = new System.Drawing.Size(980, 575);
             this.panel1.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.image_removebg_preview__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(742, 396);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(238, 179);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // cmbFiltroEstado
             // 
             this.cmbFiltroEstado.FormattingEnabled = true;
             this.cmbFiltroEstado.Location = new System.Drawing.Point(194, 75);
             this.cmbFiltroEstado.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbFiltroEstado.Name = "cmbFiltroEstado";
-            this.cmbFiltroEstado.Size = new System.Drawing.Size(150, 25);
+            this.cmbFiltroEstado.Size = new System.Drawing.Size(150, 24);
             this.cmbFiltroEstado.TabIndex = 7;
             // 
             // label1
@@ -91,13 +102,13 @@
             this.label1.Location = new System.Drawing.Point(4, 75);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 17);
+            this.label1.Size = new System.Drawing.Size(130, 16);
             this.label1.TabIndex = 6;
             this.label1.Text = "Filtrar por estado:";
             // 
             // lblTiempoSesion
             // 
-            this.lblTiempoSesion.Font = new System.Drawing.Font("Lucida Calligraphy", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTiempoSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTiempoSesion.Location = new System.Drawing.Point(817, 75);
             this.lblTiempoSesion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTiempoSesion.Name = "lblTiempoSesion";
@@ -115,6 +126,7 @@
             this.btnCerrarSesion.TabIndex = 4;
             this.btnCerrarSesion.Text = "Cerrar Sesion";
             this.btnCerrarSesion.UseVisualStyleBackColor = true;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
             // btnNuevoPedido
             // 
@@ -125,6 +137,7 @@
             this.btnNuevoPedido.TabIndex = 3;
             this.btnNuevoPedido.Text = "Nuevo Pedido";
             this.btnNuevoPedido.UseVisualStyleBackColor = true;
+            this.btnNuevoPedido.Click += new System.EventHandler(this.btnNuevoPedido_Click);
             // 
             // lblBienvenida
             // 
@@ -132,7 +145,7 @@
             this.lblBienvenida.Location = new System.Drawing.Point(5, 44);
             this.lblBienvenida.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBienvenida.Name = "lblBienvenida";
-            this.lblBienvenida.Size = new System.Drawing.Size(96, 17);
+            this.lblBienvenida.Size = new System.Drawing.Size(85, 16);
             this.lblBienvenida.TabIndex = 0;
             this.lblBienvenida.Text = "Bienvenido";
             // 
@@ -142,7 +155,7 @@
             this.label2.Location = new System.Drawing.Point(208, 44);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 17);
+            this.label2.Size = new System.Drawing.Size(62, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre";
             // 
@@ -152,7 +165,7 @@
             this.label3.Location = new System.Drawing.Point(382, 44);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 17);
+            this.label3.Size = new System.Drawing.Size(31, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Rol";
             // 
@@ -174,43 +187,32 @@
             // 
             this.pedidosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pedidosToolStripMenuItem.Name = "pedidosToolStripMenuItem";
-            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
+            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.pedidosToolStripMenuItem.Text = "Pedidos";
             // 
             // gestionarMenúToolStripMenuItem1
             // 
             this.gestionarMenúToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.gestionarMenúToolStripMenuItem1.Name = "gestionarMenúToolStripMenuItem1";
-            this.gestionarMenúToolStripMenuItem1.Size = new System.Drawing.Size(143, 26);
+            this.gestionarMenúToolStripMenuItem1.Size = new System.Drawing.Size(143, 24);
             this.gestionarMenúToolStripMenuItem1.Text = "Gestionar Menú    ";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.image_removebg_preview__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(742, 396);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(238, 179);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // PanelPedidos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.ClientSize = new System.Drawing.Size(1008, 602);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Lucida Calligraphy", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "PanelPedidos";
             this.Text = "PanelPedidos";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
