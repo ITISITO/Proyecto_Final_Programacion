@@ -51,7 +51,9 @@
             // 
             this.lbl1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(134, 24);
+            this.lbl1.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl1.Location = new System.Drawing.Point(125, 80);
             this.lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(54, 17);
@@ -62,7 +64,9 @@
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(125, 52);
+            this.lbl2.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl2.Location = new System.Drawing.Point(112, 108);
             this.lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(67, 17);
@@ -73,7 +77,9 @@
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(129, 80);
+            this.lbl3.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl3.Location = new System.Drawing.Point(116, 136);
             this.lbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(62, 17);
@@ -84,7 +90,9 @@
             // lbl6
             // 
             this.lbl6.AutoSize = true;
-            this.lbl6.Location = new System.Drawing.Point(125, 178);
+            this.lbl6.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl6.Location = new System.Drawing.Point(119, 234);
             this.lbl6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl6.Name = "lbl6";
             this.lbl6.Size = new System.Drawing.Size(60, 17);
@@ -95,7 +103,9 @@
             // lbl4
             // 
             this.lbl4.AutoSize = true;
-            this.lbl4.Location = new System.Drawing.Point(134, 112);
+            this.lbl4.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl4.Location = new System.Drawing.Point(125, 168);
             this.lbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl4.Name = "lbl4";
             this.lbl4.Size = new System.Drawing.Size(54, 17);
@@ -106,7 +116,9 @@
             // lbl5
             // 
             this.lbl5.AutoSize = true;
-            this.lbl5.Location = new System.Drawing.Point(119, 148);
+            this.lbl5.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl5.Location = new System.Drawing.Point(112, 204);
             this.lbl5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl5.Name = "lbl5";
             this.lbl5.Size = new System.Drawing.Size(67, 17);
@@ -118,10 +130,10 @@
             // 
             this.btnEditar.BackColor = System.Drawing.Color.Orange;
             this.btnEditar.ForeColor = System.Drawing.Color.Linen;
-            this.btnEditar.Location = new System.Drawing.Point(211, 248);
+            this.btnEditar.Location = new System.Drawing.Point(195, 261);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(105, 57);
+            this.btnEditar.Size = new System.Drawing.Size(100, 32);
             this.btnEditar.TabIndex = 6;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = false;
@@ -129,10 +141,10 @@
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Orange;
-            this.btnEliminar.Location = new System.Drawing.Point(76, 248);
+            this.btnEliminar.Location = new System.Drawing.Point(90, 260);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(109, 57);
+            this.btnEliminar.Size = new System.Drawing.Size(97, 33);
             this.btnEliminar.TabIndex = 8;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
@@ -140,10 +152,10 @@
             // btnCambiarEstado
             // 
             this.btnCambiarEstado.BackColor = System.Drawing.Color.Orange;
-            this.btnCambiarEstado.Location = new System.Drawing.Point(76, 311);
+            this.btnCambiarEstado.Location = new System.Drawing.Point(90, 298);
             this.btnCambiarEstado.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCambiarEstado.Name = "btnCambiarEstado";
-            this.btnCambiarEstado.Size = new System.Drawing.Size(240, 51);
+            this.btnCambiarEstado.Size = new System.Drawing.Size(205, 31);
             this.btnCambiarEstado.TabIndex = 9;
             this.btnCambiarEstado.Text = "Cambiar estado";
             this.btnCambiarEstado.UseVisualStyleBackColor = false;
@@ -151,7 +163,9 @@
             // lblEstado
             // 
             this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(219, 148);
+            this.lblEstado.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblEstado.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblEstado.Location = new System.Drawing.Point(204, 204);
             this.lblEstado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(62, 17);
@@ -161,7 +175,9 @@
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(219, 112);
+            this.lblTotal.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblTotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTotal.Location = new System.Drawing.Point(204, 168);
             this.lblTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(49, 17);
@@ -171,7 +187,9 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(219, 178);
+            this.lblFecha.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblFecha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblFecha.Location = new System.Drawing.Point(204, 234);
             this.lblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(55, 17);
@@ -181,7 +199,9 @@
             // lblPlatos
             // 
             this.lblPlatos.AutoSize = true;
-            this.lblPlatos.Location = new System.Drawing.Point(219, 80);
+            this.lblPlatos.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblPlatos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPlatos.Location = new System.Drawing.Point(204, 136);
             this.lblPlatos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlatos.Name = "lblPlatos";
             this.lblPlatos.Size = new System.Drawing.Size(57, 17);
@@ -191,7 +211,9 @@
             // lblCliente
             // 
             this.lblCliente.AutoSize = true;
-            this.lblCliente.Location = new System.Drawing.Point(219, 52);
+            this.lblCliente.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblCliente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCliente.Location = new System.Drawing.Point(204, 108);
             this.lblCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCliente.Name = "lblCliente";
             this.lblCliente.Size = new System.Drawing.Size(62, 17);
@@ -202,7 +224,9 @@
             // 
             this.lblNumeroMesa.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.lblNumeroMesa.AutoSize = true;
-            this.lblNumeroMesa.Location = new System.Drawing.Point(219, 24);
+            this.lblNumeroMesa.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblNumeroMesa.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblNumeroMesa.Location = new System.Drawing.Point(204, 80);
             this.lblNumeroMesa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNumeroMesa.Name = "lblNumeroMesa";
             this.lblNumeroMesa.Size = new System.Drawing.Size(49, 17);
@@ -211,8 +235,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.Captura_de_pantalla_2025_11_20_145546;
+            this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.unnamed__1_;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";

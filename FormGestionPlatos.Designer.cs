@@ -68,10 +68,10 @@
             this.panelForm.Controls.Add(this.label3);
             this.panelForm.Controls.Add(this.label2);
             this.panelForm.Controls.Add(this.label1);
-            this.panelForm.Location = new System.Drawing.Point(149, 163);
+            this.panelForm.Location = new System.Drawing.Point(149, 175);
             this.panelForm.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panelForm.Name = "panelForm";
-            this.panelForm.Size = new System.Drawing.Size(254, 477);
+            this.panelForm.Size = new System.Drawing.Size(254, 465);
             this.panelForm.TabIndex = 0;
             // 
             // chkDisponible
@@ -225,7 +225,7 @@
             this.dgvPlatos.Name = "dgvPlatos";
             this.dgvPlatos.RowHeadersWidth = 51;
             this.dgvPlatos.RowTemplate.Height = 24;
-            this.dgvPlatos.Size = new System.Drawing.Size(280, 436);
+            this.dgvPlatos.Size = new System.Drawing.Size(286, 436);
             this.dgvPlatos.TabIndex = 1;
             // 
             // label6
