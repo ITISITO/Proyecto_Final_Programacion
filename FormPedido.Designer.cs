@@ -107,7 +107,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(45, 117);
+            this.label4.Location = new System.Drawing.Point(83, 117);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(142, 16);
@@ -117,7 +117,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(347, 117);
+            this.label5.Location = new System.Drawing.Point(406, 117);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(139, 16);
@@ -127,7 +127,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(237, 366);
+            this.label6.Location = new System.Drawing.Point(331, 369);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 16);
@@ -139,7 +139,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(18, 361);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(185, 24);
+            this.btnAgregar.Size = new System.Drawing.Size(189, 31);
             this.btnAgregar.TabIndex = 10;
             this.btnAgregar.Text = "Agregar al pedido";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -149,10 +149,10 @@
             // 
             this.btnQuitar.BackColor = System.Drawing.Color.Red;
             this.btnQuitar.ForeColor = System.Drawing.Color.Snow;
-            this.btnQuitar.Location = new System.Drawing.Point(13, 493);
+            this.btnQuitar.Location = new System.Drawing.Point(28, 496);
             this.btnQuitar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnQuitar.Name = "btnQuitar";
-            this.btnQuitar.Size = new System.Drawing.Size(92, 36);
+            this.btnQuitar.Size = new System.Drawing.Size(125, 36);
             this.btnQuitar.TabIndex = 11;
             this.btnQuitar.Text = "Quitar";
             this.btnQuitar.UseVisualStyleBackColor = false;
@@ -162,10 +162,10 @@
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.Red;
             this.btnCancelar.ForeColor = System.Drawing.Color.Snow;
-            this.btnCancelar.Location = new System.Drawing.Point(12, 447);
+            this.btnCancelar.Location = new System.Drawing.Point(27, 450);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(93, 40);
+            this.btnCancelar.Size = new System.Drawing.Size(126, 40);
             this.btnCancelar.TabIndex = 14;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -174,10 +174,10 @@
             // lblTotal
             // 
             this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(425, 366);
+            this.lblTotal.Location = new System.Drawing.Point(509, 350);
             this.lblTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(112, 49);
+            this.lblTotal.Size = new System.Drawing.Size(103, 46);
             this.lblTotal.TabIndex = 12;
             this.lblTotal.Text = "Total";
             this.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -186,10 +186,10 @@
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Red;
             this.btnGuardar.ForeColor = System.Drawing.Color.White;
-            this.btnGuardar.Location = new System.Drawing.Point(18, 398);
+            this.btnGuardar.Location = new System.Drawing.Point(28, 401);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(87, 43);
+            this.btnGuardar.Size = new System.Drawing.Size(120, 43);
             this.btnGuardar.TabIndex = 15;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
@@ -199,20 +199,20 @@
             // 
             this.lstPlatosDisponibles.FormattingEnabled = true;
             this.lstPlatosDisponibles.ItemHeight = 16;
-            this.lstPlatosDisponibles.Location = new System.Drawing.Point(12, 147);
+            this.lstPlatosDisponibles.Location = new System.Drawing.Point(18, 147);
             this.lstPlatosDisponibles.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstPlatosDisponibles.Name = "lstPlatosDisponibles";
-            this.lstPlatosDisponibles.Size = new System.Drawing.Size(255, 196);
+            this.lstPlatosDisponibles.Size = new System.Drawing.Size(299, 196);
             this.lstPlatosDisponibles.TabIndex = 16;
             // 
             // lstPlatosSeleccionados
             // 
             this.lstPlatosSeleccionados.FormattingEnabled = true;
             this.lstPlatosSeleccionados.ItemHeight = 16;
-            this.lstPlatosSeleccionados.Location = new System.Drawing.Point(275, 147);
+            this.lstPlatosSeleccionados.Location = new System.Drawing.Point(334, 147);
             this.lstPlatosSeleccionados.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstPlatosSeleccionados.Name = "lstPlatosSeleccionados";
-            this.lstPlatosSeleccionados.Size = new System.Drawing.Size(262, 196);
+            this.lstPlatosSeleccionados.Size = new System.Drawing.Size(278, 196);
             this.lstPlatosSeleccionados.TabIndex = 17;
             // 
             // pictureBox1
@@ -222,14 +222,14 @@
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(546, 621);
+            this.pictureBox1.Size = new System.Drawing.Size(634, 621);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 
             // numCantidad
             // 
-            this.numCantidad.Location = new System.Drawing.Point(313, 361);
+            this.numCantidad.Location = new System.Drawing.Point(407, 364);
             this.numCantidad.Name = "numCantidad";
             this.numCantidad.Size = new System.Drawing.Size(83, 22);
             this.numCantidad.TabIndex = 19;
@@ -239,7 +239,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.ClientSize = new System.Drawing.Size(546, 621);
+            this.ClientSize = new System.Drawing.Size(634, 621);
             this.Controls.Add(this.numCantidad);
             this.Controls.Add(this.lstPlatosSeleccionados);
             this.Controls.Add(this.lstPlatosDisponibles);

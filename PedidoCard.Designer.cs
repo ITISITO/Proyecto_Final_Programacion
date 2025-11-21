@@ -83,7 +83,7 @@
             this.lblEstado.AutoSize = true;
             this.lblEstado.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.lblEstado.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblEstado.Location = new System.Drawing.Point(171, 206);
+            this.lblEstado.Location = new System.Drawing.Point(132, 207);
             this.lblEstado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(56, 16);
@@ -95,7 +95,7 @@
             this.lblTotal.AutoSize = true;
             this.lblTotal.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.lblTotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTotal.Location = new System.Drawing.Point(171, 170);
+            this.lblTotal.Location = new System.Drawing.Point(132, 171);
             this.lblTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(43, 16);
@@ -107,7 +107,7 @@
             this.lblFecha.AutoSize = true;
             this.lblFecha.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.lblFecha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblFecha.Location = new System.Drawing.Point(171, 236);
+            this.lblFecha.Location = new System.Drawing.Point(132, 237);
             this.lblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(50, 16);
@@ -119,7 +119,7 @@
             this.lblPlatos.AutoSize = true;
             this.lblPlatos.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.lblPlatos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPlatos.Location = new System.Drawing.Point(171, 138);
+            this.lblPlatos.Location = new System.Drawing.Point(132, 139);
             this.lblPlatos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlatos.Name = "lblPlatos";
             this.lblPlatos.Size = new System.Drawing.Size(51, 16);
@@ -131,7 +131,7 @@
             this.lblCliente.AutoSize = true;
             this.lblCliente.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.lblCliente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblCliente.Location = new System.Drawing.Point(171, 110);
+            this.lblCliente.Location = new System.Drawing.Point(132, 111);
             this.lblCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCliente.Name = "lblCliente";
             this.lblCliente.Size = new System.Drawing.Size(55, 16);
@@ -144,7 +144,7 @@
             this.lblMesa.AutoSize = true;
             this.lblMesa.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.lblMesa.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblMesa.Location = new System.Drawing.Point(171, 82);
+            this.lblMesa.Location = new System.Drawing.Point(132, 83);
             this.lblMesa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMesa.Name = "lblMesa";
             this.lblMesa.Size = new System.Drawing.Size(45, 16);

@@ -39,7 +39,7 @@ namespace Sistema_de_pedidos_restaurante_PF
         private void InicializarInterfazSesion()
         {
             lblNombre.Text = sesionActiva.Nombre;
-            lblRol.Text = sesionActiva.Rol;
+            lblRol.Text = $"Rol: { sesionActiva.Rol}";
 
             cmbFiltroEstado.Items.Clear();
             cmbFiltroEstado.Items.AddRange(new object[] { "Todos", "En Preparación", "Listo", "Entregado" });
@@ -134,7 +134,6 @@ namespace Sistema_de_pedidos_restaurante_PF
             Application.Exit();
         }
 
-        // ⬇️⬇️⬇️⬇️⬇️ NUEVO - TODO ESTO ES NUEVO ⬇️⬇️⬇️⬇️⬇️
 
         private void CargarPedidos()
         {
@@ -215,7 +214,6 @@ namespace Sistema_de_pedidos_restaurante_PF
             }
         }
 
-        // ⬆️⬆️⬆️⬆️⬆️ FIN DE LO NUEVO ⬆️⬆️⬆️⬆️⬆️
 
         private void btnCerrarSesion_Click(object sender, EventArgs e)
         {

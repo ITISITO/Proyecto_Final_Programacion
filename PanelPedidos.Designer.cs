@@ -147,9 +147,9 @@
             this.lblBienvenida.Location = new System.Drawing.Point(5, 44);
             this.lblBienvenida.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBienvenida.Name = "lblBienvenida";
-            this.lblBienvenida.Size = new System.Drawing.Size(85, 16);
+            this.lblBienvenida.Size = new System.Drawing.Size(93, 16);
             this.lblBienvenida.TabIndex = 0;
-            this.lblBienvenida.Text = "Bienvenido";
+            this.lblBienvenida.Text = "Bienvenido: ";
             // 
             // lblNombre
             // 
@@ -181,7 +181,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(10, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(980, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(980, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
