@@ -51,6 +51,8 @@
             // 
             this.lbl1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.lbl1.AutoSize = true;
+            this.lbl1.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl1.Location = new System.Drawing.Point(125, 80);
             this.lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl1.Name = "lbl1";
@@ -62,6 +64,8 @@
             // lbl2
             // 
             this.lbl2.AutoSize = true;
+            this.lbl2.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl2.Location = new System.Drawing.Point(112, 108);
             this.lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl2.Name = "lbl2";
@@ -73,6 +77,8 @@
             // lbl3
             // 
             this.lbl3.AutoSize = true;
+            this.lbl3.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl3.Location = new System.Drawing.Point(116, 136);
             this.lbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl3.Name = "lbl3";
@@ -84,6 +90,8 @@
             // lbl6
             // 
             this.lbl6.AutoSize = true;
+            this.lbl6.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl6.Location = new System.Drawing.Point(119, 234);
             this.lbl6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl6.Name = "lbl6";
@@ -95,6 +103,8 @@
             // lbl4
             // 
             this.lbl4.AutoSize = true;
+            this.lbl4.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl4.Location = new System.Drawing.Point(125, 168);
             this.lbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl4.Name = "lbl4";
@@ -106,6 +116,8 @@
             // lbl5
             // 
             this.lbl5.AutoSize = true;
+            this.lbl5.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lbl5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl5.Location = new System.Drawing.Point(112, 204);
             this.lbl5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl5.Name = "lbl5";
@@ -151,6 +163,8 @@
             // lblEstado
             // 
             this.lblEstado.AutoSize = true;
+            this.lblEstado.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblEstado.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblEstado.Location = new System.Drawing.Point(204, 204);
             this.lblEstado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEstado.Name = "lblEstado";
@@ -161,6 +175,8 @@
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
+            this.lblTotal.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblTotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTotal.Location = new System.Drawing.Point(204, 168);
             this.lblTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotal.Name = "lblTotal";
@@ -171,6 +187,8 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
+            this.lblFecha.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblFecha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblFecha.Location = new System.Drawing.Point(204, 234);
             this.lblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFecha.Name = "lblFecha";
@@ -181,6 +199,8 @@
             // lblPlatos
             // 
             this.lblPlatos.AutoSize = true;
+            this.lblPlatos.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblPlatos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblPlatos.Location = new System.Drawing.Point(204, 136);
             this.lblPlatos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlatos.Name = "lblPlatos";
@@ -191,6 +211,8 @@
             // lblCliente
             // 
             this.lblCliente.AutoSize = true;
+            this.lblCliente.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblCliente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblCliente.Location = new System.Drawing.Point(204, 108);
             this.lblCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCliente.Name = "lblCliente";
@@ -202,6 +224,8 @@
             // 
             this.lblNumeroMesa.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.lblNumeroMesa.AutoSize = true;
+            this.lblNumeroMesa.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lblNumeroMesa.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblNumeroMesa.Location = new System.Drawing.Point(204, 80);
             this.lblNumeroMesa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNumeroMesa.Name = "lblNumeroMesa";
@@ -211,6 +235,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::Sistema_de_pedidos_restaurante_PF.Properties.Resources.unnamed__1_;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
