@@ -151,6 +151,9 @@ namespace Sistema_de_pedidos_restaurante_PF
                 Disponible = chkDisponible.Checked
             };
 
+            // ⬇️⬇️⬇️ AGREGAR: Asignar ID automáticamente
+            nuevoPlato.Id = listaPlatos.Count > 0 ? listaPlatos.Max(p => p.Id) + 1 : 1;
+
             listaPlatos.Add(nuevoPlato);
             plato.GuardarJson(listaPlatos);
 
@@ -237,6 +240,56 @@ namespace Sistema_de_pedidos_restaurante_PF
             btnAgregar.Enabled = false;
             btnActualizar.Enabled = true;
             btnEliminar.Enabled = true;
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPrecio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDescripcion_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chkDisponible_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

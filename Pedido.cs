@@ -10,7 +10,7 @@ namespace Sistema_de_pedidos_restaurante_PF
     {
         private string archivo = "pedidos.json";
 
-        public string Id { get; set; }
+        public int Id { get; set; }
         public int NumeroMesa { get; set; }
         public string NombreCliente { get; set; }
         public List<Plato> Platos { get; set; }
@@ -21,7 +21,6 @@ namespace Sistema_de_pedidos_restaurante_PF
 
         public Pedido()
         {
-            Id = Guid.NewGuid().ToString();
             Platos = new List<Plato>();
             FechaPedido = DateTime.Now;
             Estado = "En Preparación";
@@ -29,7 +28,6 @@ namespace Sistema_de_pedidos_restaurante_PF
 
         public Pedido(int numeroMesa, string nombreCliente, List<Plato> platos, string observaciones = "")
         {
-            Id = Guid.NewGuid().ToString();
             NumeroMesa = numeroMesa;
             NombreCliente = nombreCliente;
             Platos = platos ?? new List<Plato>();

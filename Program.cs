@@ -19,6 +19,15 @@ namespace Sistema_de_pedidos_restaurante_PF
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+            Usuario usuarioEjemplo = new Usuario();
+            usuarioEjemplo.CrearUsuariosEjemplo();
+
+            Plato platoEjemplo = new Plato();
+            if (platoEjemplo.ReadDataFromJson().Count == 0)
+            {
+                platoEjemplo.CrearPlatosEjemplo();
+            }
+
             string archivoSesion = "sesion.json";
 
             if (File.Exists(archivoSesion))

@@ -68,31 +68,32 @@
             this.panelForm.Controls.Add(this.label3);
             this.panelForm.Controls.Add(this.label2);
             this.panelForm.Controls.Add(this.label1);
-            this.panelForm.Location = new System.Drawing.Point(149, 175);
+            this.panelForm.Location = new System.Drawing.Point(126, 152);
             this.panelForm.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panelForm.Name = "panelForm";
-            this.panelForm.Size = new System.Drawing.Size(254, 465);
+            this.panelForm.Size = new System.Drawing.Size(234, 433);
             this.panelForm.TabIndex = 0;
             // 
             // chkDisponible
             // 
             this.chkDisponible.AutoSize = true;
-            this.chkDisponible.Location = new System.Drawing.Point(12, 331);
+            this.chkDisponible.Location = new System.Drawing.Point(6, 311);
             this.chkDisponible.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.chkDisponible.Name = "chkDisponible";
             this.chkDisponible.Size = new System.Drawing.Size(104, 20);
             this.chkDisponible.TabIndex = 12;
             this.chkDisponible.Text = "Dispónible";
             this.chkDisponible.UseVisualStyleBackColor = true;
+            this.chkDisponible.CheckedChanged += new System.EventHandler(this.chkDisponible_CheckedChanged);
             // 
             // btnLimpiar
             // 
             this.btnLimpiar.BackColor = System.Drawing.Color.Red;
             this.btnLimpiar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnLimpiar.Location = new System.Drawing.Point(118, 424);
+            this.btnLimpiar.Location = new System.Drawing.Point(118, 394);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(94, 36);
+            this.btnLimpiar.Size = new System.Drawing.Size(89, 30);
             this.btnLimpiar.TabIndex = 5;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
@@ -101,20 +102,21 @@
             // cmbCategoria
             // 
             this.cmbCategoria.FormattingEnabled = true;
-            this.cmbCategoria.Location = new System.Drawing.Point(4, 135);
+            this.cmbCategoria.Location = new System.Drawing.Point(8, 134);
             this.cmbCategoria.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(150, 24);
+            this.cmbCategoria.Size = new System.Drawing.Size(156, 24);
             this.cmbCategoria.TabIndex = 11;
+            this.cmbCategoria.SelectedIndexChanged += new System.EventHandler(this.cmbCategoria_SelectedIndexChanged);
             // 
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Red;
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnEliminar.Location = new System.Drawing.Point(6, 424);
+            this.btnEliminar.Location = new System.Drawing.Point(6, 394);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(94, 36);
+            this.btnEliminar.Size = new System.Drawing.Size(89, 30);
             this.btnEliminar.TabIndex = 4;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
@@ -122,20 +124,21 @@
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(8, 279);
+            this.txtDescripcion.Location = new System.Drawing.Point(8, 275);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(124, 22);
+            this.txtDescripcion.Size = new System.Drawing.Size(156, 22);
             this.txtDescripcion.TabIndex = 10;
+            this.txtDescripcion.TextChanged += new System.EventHandler(this.txtDescripcion_TextChanged);
             // 
             // btnActualizar
             // 
             this.btnActualizar.BackColor = System.Drawing.Color.Red;
             this.btnActualizar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnActualizar.Location = new System.Drawing.Point(118, 384);
+            this.btnActualizar.Location = new System.Drawing.Point(118, 348);
             this.btnActualizar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(94, 36);
+            this.btnActualizar.Size = new System.Drawing.Size(89, 30);
             this.btnActualizar.TabIndex = 3;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
@@ -143,20 +146,21 @@
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(6, 206);
+            this.txtPrecio.Location = new System.Drawing.Point(8, 207);
             this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(124, 22);
+            this.txtPrecio.Size = new System.Drawing.Size(156, 22);
             this.txtPrecio.TabIndex = 9;
+            this.txtPrecio.TextChanged += new System.EventHandler(this.txtPrecio_TextChanged);
             // 
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.Red;
             this.btnAgregar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnAgregar.Location = new System.Drawing.Point(6, 384);
+            this.btnAgregar.Location = new System.Drawing.Point(4, 348);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(94, 36);
+            this.btnAgregar.Size = new System.Drawing.Size(89, 30);
             this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
@@ -164,41 +168,45 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(8, 69);
+            this.txtNombre.Location = new System.Drawing.Point(8, 67);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(124, 22);
+            this.txtNombre.Size = new System.Drawing.Size(156, 22);
             this.txtNombre.TabIndex = 7;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(4, 259);
+            this.label5.Location = new System.Drawing.Point(4, 245);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(98, 16);
             this.label5.TabIndex = 6;
             this.label5.Text = "Descripción: ";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(2, 187);
+            this.label4.Location = new System.Drawing.Point(5, 174);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 16);
             this.label4.TabIndex = 5;
             this.label4.Text = "Precio:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 115);
+            this.label3.Location = new System.Drawing.Point(5, 107);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Categoria:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -209,6 +217,7 @@
             this.label2.Size = new System.Drawing.Size(128, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nombre de Plato:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -219,17 +228,18 @@
             this.label1.Size = new System.Drawing.Size(130, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Gestion de Platos";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dgvPlatos
             // 
             this.dgvPlatos.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvPlatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPlatos.Location = new System.Drawing.Point(411, 204);
+            this.dgvPlatos.Location = new System.Drawing.Point(368, 183);
             this.dgvPlatos.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.dgvPlatos.Name = "dgvPlatos";
             this.dgvPlatos.RowHeadersWidth = 51;
             this.dgvPlatos.RowTemplate.Height = 24;
-            this.dgvPlatos.Size = new System.Drawing.Size(286, 436);
+            this.dgvPlatos.Size = new System.Drawing.Size(422, 402);
             this.dgvPlatos.TabIndex = 1;
             this.dgvPlatos.SelectionChanged += new System.EventHandler(this.dgvPlatos_SelectionChanged_1);
             // 
@@ -237,10 +247,10 @@
             // 
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(428, 163);
+            this.label6.Location = new System.Drawing.Point(492, 151);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(236, 39);
+            this.label6.Size = new System.Drawing.Size(214, 29);
             this.label6.TabIndex = 13;
             this.label6.Text = "Lista de Platos";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -249,10 +259,10 @@
             // 
             this.label7.BackColor = System.Drawing.Color.Red;
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(239, 712);
+            this.label7.Location = new System.Drawing.Point(263, 649);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(285, 38);
+            this.label7.Size = new System.Drawing.Size(282, 32);
             this.label7.TabIndex = 13;
             this.label7.Text = "Seleccionar  una fila para editar ";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -264,8 +274,8 @@
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(865, 828);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.Size = new System.Drawing.Size(941, 756);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
@@ -274,7 +284,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.ClientSize = new System.Drawing.Size(865, 828);
+            this.ClientSize = new System.Drawing.Size(941, 756);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dgvPlatos);

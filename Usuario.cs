@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Sistema_de_pedidos_restaurante_PF
 {
@@ -48,15 +49,27 @@ namespace Sistema_de_pedidos_restaurante_PF
         // ⬇️ AGREGAR ESTE MÉTODO
         public void CrearUsuariosEjemplo()
         {
-            var listaUsuarios = new List<Usuario>
-            {
-                new Usuario("Cristhian", "admin@restaurante.com", "admin123", "Administrador"),
-                new Usuario("Andres", "andres@restaurante.com", "andres123", "Administrador"),
-                new Usuario("Juan Pérez", "juan@restaurante.com", "mesero123", "Mesero"),
-                new Usuario("María García", "maria@restaurante.com", "cocinera123", "Cocinero")
-            };
+            var listaExistente = ReadDataFromJson(); // Lee los que ya existen
 
-            GuardarJson(listaUsuarios);
+            var listaUsuarios = new List<Usuario>
+    {
+        new Usuario("Cristhian", "admin@restaurante.com", "admin123", "Administrador"),
+        new Usuario("Andres", "andres@restaurante.com", "andres123", "Administrador"),
+        new Usuario("Juan Pérez", "juan@restaurante.com", "mesero123", "Mesero"),
+        new Usuario("María García", "maria@restaurante.com", "cocinera123", "Cocinero"),
+        new Usuario("Pedro López", "pedro@restaurante.com", "pedro123", "Mesero") // ⬅️ AGREGAR NUEVO AQUÍ
+    };
+
+            // Solo agrega los que NO existen
+            foreach (var usuario in listaUsuarios)
+            {
+                if (!listaExistente.Any(u => u.CorreoElectronico == usuario.CorreoElectronico))
+                {
+                    listaExistente.Add(usuario);
+                }
+            }
+
+            GuardarJson(listaExistente);
         }
     }
 

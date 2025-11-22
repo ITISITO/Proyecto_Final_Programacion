@@ -205,6 +205,9 @@ namespace Sistema_de_pedidos_restaurante_PF
                     txtObservaciones.Text.Trim()
                 );
 
+                // ⬇️⬇️⬇️ AGREGAR: Asignar ID automáticamente
+                nuevoPedido.Id = listaPedidos.Count > 0 ? listaPedidos.Max(p => p.Id) + 1 : 1;
+
                 listaPedidos.Add(nuevoPedido);
             }
 
@@ -219,6 +222,7 @@ namespace Sistema_de_pedidos_restaurante_PF
 
             this.DialogResult = DialogResult.OK;
             this.Close();
+        
         }
 
         private void btnCancelar_Click_1(object sender, EventArgs e)
