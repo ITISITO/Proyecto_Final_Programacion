@@ -34,6 +34,7 @@ namespace Sistema_de_pedidos_restaurante_PF
             InicializarInterfazSesion();
             IniciarContadorSesion();
             CargarPedidos(); // ⬅️⬅️⬅️ NUEVO - AGREGAR ESTA LÍNEA
+            OcultarOpcionesPorRol(); // ⬅️⬅️⬅️ NUEVO - AGREGAR ESTA LÍNEA
         }
 
         private void InicializarInterfazSesion()
@@ -117,10 +118,11 @@ namespace Sistema_de_pedidos_restaurante_PF
                 File.Delete(archivoSesion);
             }
 
+            // ⬇️⬇️⬇️ FORMA SIMPLE (como era antes)
             this.Hide();
             FormLogin login = new FormLogin();
             login.ShowDialog();
-            this.Close();
+            Application.Exit();
         }
 
         private void Cerrar_Formulario(object sender, FormClosingEventArgs e)
@@ -213,6 +215,17 @@ namespace Sistema_de_pedidos_restaurante_PF
                 CargarPedidos();
             }
         }
+        private void OcultarOpcionesPorRol()
+        {
+            if (sesionActiva.Rol != "Administrador")
+            {
+                // Ocultar "Gestionar Menú" si no es Admin
+                gestionarMenúToolStripMenuItem1.Visible = false;
+
+                // Ocultar "Gestionar Usuarios" si no es Admin
+                gestionarUsuariosToolStripMenuItem.Visible = false;
+            }
+        }
 
 
         private void btnCerrarSesion_Click(object sender, EventArgs e)
@@ -248,6 +261,12 @@ namespace Sistema_de_pedidos_restaurante_PF
         {
             FormGestionPlatos formPlatos = new FormGestionPlatos();
             formPlatos.ShowDialog();
+        }
+
+        private void gestionarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormUsuario formUsuarios = new FormUsuario(sesionActiva);
+            formUsuarios.ShowDialog();
         }
     }
 }

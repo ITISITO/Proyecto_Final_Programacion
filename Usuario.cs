@@ -51,6 +51,7 @@ namespace Sistema_de_pedidos_restaurante_PF
             var listaUsuarios = new List<Usuario>
             {
                 new Usuario("Cristhian", "admin@restaurante.com", "admin123", "Administrador"),
+                new Usuario("Andres", "andres@restaurante.com", "andres123", "Administrador"),
                 new Usuario("Juan Pérez", "juan@restaurante.com", "mesero123", "Mesero"),
                 new Usuario("María García", "maria@restaurante.com", "cocinera123", "Cocinero")
             };

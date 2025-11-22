@@ -42,6 +42,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionarMenúToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionarUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -177,11 +178,12 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pedidosToolStripMenuItem,
-            this.gestionarMenúToolStripMenuItem1});
+            this.gestionarMenúToolStripMenuItem1,
+            this.gestionarUsuariosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(10, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(980, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(980, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -199,6 +201,14 @@
             this.gestionarMenúToolStripMenuItem1.Size = new System.Drawing.Size(143, 24);
             this.gestionarMenúToolStripMenuItem1.Text = "Gestionar Menú    ";
             this.gestionarMenúToolStripMenuItem1.Click += new System.EventHandler(this.gestionarMenúToolStripMenuItem1_Click);
+            // 
+            // gestionarUsuariosToolStripMenuItem
+            // 
+            this.gestionarUsuariosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.gestionarUsuariosToolStripMenuItem.Name = "gestionarUsuariosToolStripMenuItem";
+            this.gestionarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
+            this.gestionarUsuariosToolStripMenuItem.Text = "Gestionar Usuarios";
+            this.gestionarUsuariosToolStripMenuItem.Click += new System.EventHandler(this.gestionarUsuariosToolStripMenuItem_Click);
             // 
             // PanelPedidos
             // 
@@ -236,5 +246,6 @@
         private System.Windows.Forms.ToolStripMenuItem pedidosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionarMenúToolStripMenuItem1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem gestionarUsuariosToolStripMenuItem;
     }
 }

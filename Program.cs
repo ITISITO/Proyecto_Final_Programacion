@@ -21,7 +21,6 @@ namespace Sistema_de_pedidos_restaurante_PF
 
             string archivoSesion = "sesion.json";
 
-            // Si existe una sesión activa, abrir PanelAdmin
             if (File.Exists(archivoSesion))
             {
                 string json = File.ReadAllText(archivoSesion);
@@ -29,7 +28,14 @@ namespace Sistema_de_pedidos_restaurante_PF
 
                 if (sesion != null && sesion.ContainsKey("UsuarioLogueado"))
                 {
-                    Application.Run(new FormUsuario());
+                    // ⬇️⬇️⬇️ CAMBIAR ESTA LÍNEA
+                    Application.Run(new PanelPedidos(new SesionLogin
+                    {
+                        Nombre = sesion["UsuarioLogueado"],
+                        CorreoElectronico = sesion["CorreoElectronico"],
+                        Rol = sesion["Rol"],
+                        FechaInicio = DateTime.Parse(sesion["FechaInicio"])
+                    }));
                     return;
                 }
             }

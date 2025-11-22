@@ -39,6 +39,8 @@
             this.btnEnviar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmbRol = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,12 +48,12 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.Color.Wheat;
-            this.lblNombre.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.OrangeRed;
             this.lblNombre.Location = new System.Drawing.Point(167, 27);
             this.lblNombre.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(105, 27);
+            this.lblNombre.Size = new System.Drawing.Size(87, 25);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Nombre";
             // 
@@ -60,7 +62,7 @@
             this.txtNombre.Location = new System.Drawing.Point(105, 59);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(202, 25);
+            this.txtNombre.Size = new System.Drawing.Size(202, 22);
             this.txtNombre.TabIndex = 1;
             // 
             // lblCorreoElec
@@ -69,7 +71,7 @@
             this.lblCorreoElec.Location = new System.Drawing.Point(126, 103);
             this.lblCorreoElec.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblCorreoElec.Name = "lblCorreoElec";
-            this.lblCorreoElec.Size = new System.Drawing.Size(161, 17);
+            this.lblCorreoElec.Size = new System.Drawing.Size(136, 16);
             this.lblCorreoElec.TabIndex = 2;
             this.lblCorreoElec.Text = "Correo Electronico";
             // 
@@ -80,7 +82,7 @@
             this.lblPassword.Location = new System.Drawing.Point(143, 179);
             this.lblPassword.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(103, 17);
+            this.lblPassword.Size = new System.Drawing.Size(86, 16);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Contraseña";
             // 
@@ -91,7 +93,7 @@
             this.lblConfirmarPassword.Location = new System.Drawing.Point(120, 267);
             this.lblConfirmarPassword.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblConfirmarPassword.Name = "lblConfirmarPassword";
-            this.lblConfirmarPassword.Size = new System.Drawing.Size(192, 17);
+            this.lblConfirmarPassword.Size = new System.Drawing.Size(154, 16);
             this.lblConfirmarPassword.TabIndex = 4;
             this.lblConfirmarPassword.Text = "Confirmar contraseña";
             // 
@@ -100,7 +102,7 @@
             this.txtCorreoElec.Location = new System.Drawing.Point(105, 136);
             this.txtCorreoElec.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtCorreoElec.Name = "txtCorreoElec";
-            this.txtCorreoElec.Size = new System.Drawing.Size(202, 25);
+            this.txtCorreoElec.Size = new System.Drawing.Size(202, 22);
             this.txtCorreoElec.TabIndex = 5;
             // 
             // txtPassword
@@ -108,7 +110,7 @@
             this.txtPassword.Location = new System.Drawing.Point(102, 211);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(207, 25);
+            this.txtPassword.Size = new System.Drawing.Size(207, 22);
             this.txtPassword.TabIndex = 6;
             // 
             // txtConfirmarPass
@@ -116,12 +118,12 @@
             this.txtConfirmarPass.Location = new System.Drawing.Point(105, 297);
             this.txtConfirmarPass.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtConfirmarPass.Name = "txtConfirmarPass";
-            this.txtConfirmarPass.Size = new System.Drawing.Size(202, 25);
+            this.txtConfirmarPass.Size = new System.Drawing.Size(202, 22);
             this.txtConfirmarPass.TabIndex = 7;
             // 
             // btnEnviar
             // 
-            this.btnEnviar.Location = new System.Drawing.Point(146, 340);
+            this.btnEnviar.Location = new System.Drawing.Point(67, 397);
             this.btnEnviar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(125, 30);
@@ -132,7 +134,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(146, 378);
+            this.btnCancelar.Location = new System.Drawing.Point(232, 397);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(125, 30);
@@ -153,11 +155,32 @@
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.label1.Location = new System.Drawing.Point(148, 339);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(106, 16);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Rol de trabajo";
+            // 
+            // cmbRol
+            // 
+            this.cmbRol.FormattingEnabled = true;
+            this.cmbRol.Location = new System.Drawing.Point(108, 366);
+            this.cmbRol.Name = "cmbRol";
+            this.cmbRol.Size = new System.Drawing.Size(201, 24);
+            this.cmbRol.TabIndex = 12;
+            // 
             // FormRegistro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(397, 494);
+            this.Controls.Add(this.cmbRol);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.txtConfirmarPass);
@@ -169,7 +192,7 @@
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.pictureBox1);
-            this.Font = new System.Drawing.Font("Lucida Handwriting", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.OrangeRed;
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "FormRegistro";
@@ -193,6 +216,8 @@
         private System.Windows.Forms.Button btnEnviar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cmbRol;
     }
 }
 
